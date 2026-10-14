@@ -1,0 +1,31 @@
+/* Extra components for the Hire Flutter Developer page (reuses ../style.css tokens) */
+.fl-section{padding:60px 0;max-width:1440px;min-width:1200px;margin:0 auto;width:100%;background:#fff}
+.fl-section.fl-alt{background:var(--bg-stats,#fff4f6);max-width:none}
+.fl-section .container{max-width:1280px}
+.fl-grid{display:grid;gap:24px;max-width:1280px;margin:40px auto 0;padding:0 40px}
+.fl-grid-3{grid-template-columns:repeat(3,1fr)}.fl-grid-2{grid-template-columns:repeat(2,1fr)}
+.fl-card{background:#fff;border:1px solid var(--primary-coral,#ff3d6e);border-radius:20px;padding:28px 24px;display:flex;flex-direction:column;gap:14px;box-shadow:0 8px 30px rgba(0,0,0,.04)}
+.fl-card-hybrid{background:linear-gradient(180deg,#fff 0,#fdf6f9 100%)}
+.fl-card-title{font-family:var(--font-heading);font-size:20px;font-weight:700;color:var(--text-dark);line-height:1.3}
+.fl-card-text{font-size:15px;line-height:1.65;color:var(--text-body)}
+.fl-checks{list-style:none;display:flex;flex-direction:column;gap:12px;margin:8px 0 18px;padding:0}
+.fl-checks li{display:flex;gap:10px;align-items:flex-start;font-size:15px;line-height:1.5;color:var(--text-body)}
+.fl-check{flex:none;width:22px;height:22px;border-radius:50%;background:var(--primary-coral-light,#fff2f1);display:inline-flex;align-items:center;justify-content:center;margin-top:1px}
+.fl-check svg{width:12px;height:12px}
+.fl-checks-lg li{font-size:18px}
+.fl-center{display:flex;justify-content:center;margin-top:36px}
+.fl-hero-ctas{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:20px 0 18px}
+.fl-hero-ctas .btn-outline{display:inline-flex;align-items:center;gap:8px;padding:12px 20px}
+.fl-badge-grid{display:grid;grid-template-columns:repeat(2,max-content);gap:10px 12px;margin-bottom:12px}
+.fl-dev-top{display:flex;gap:14px;align-items:center}
+.fl-dev-top img{border-radius:50%;flex:none}
+.fl-dev-role{font-size:14px;color:var(--primary-coral,#ff3d6e);font-weight:600}
+.fl-dev-meta{font-size:14px;color:var(--text-body);line-height:1.5}
+.fl-quote{font-style:italic;font-size:14.5px;line-height:1.6;color:var(--text-body);background:#f9fafb;border-radius:12px;padding:14px 16px;margin:0}
+.fl-proof{text-align:center;font-family:var(--font-heading);font-size:24px;font-weight:700;color:var(--text-dark);margin:36px 0 8px}
+.fl-pricing{max-width:760px;margin:28px auto 0;background:#fff;border:1px solid var(--primary-coral,#ff3d6e);border-radius:20px;padding:28px 32px 10px}
+.fl-testi{grid-template-columns:repeat(3,1fr)}
+.hero-section .main-headline{font-size:34px;font-weight:800;margin:0}
+.fl-pricing,.fl-pricing li,.fl-card,.fl-card li{text-align:left}
+.fl-section .section-subtitle{max-width:720px;margin-left:auto;margin-right:auto}
+.cta-commit-btn svg path,.faq-card-btn svg path{stroke:#fff}
