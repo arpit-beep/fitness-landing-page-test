@@ -1,0 +1,2155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Developer Bazaar | Fitness App Development Specialists</title>
+<meta name="description" content="Launch your custom fitness app in 12 weeks with Developer Bazaar. Fixed pricing, zero hidden surprises, and 100% code ownership guaranteed.">
+<meta name="theme-color" content="#ff3d6e">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800;900&family=Montserrat+Alternates:wght@500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+          <!-- SVG Sprite Defs for Web Optimization (DRY Standard) -->
+        <svg style="display: none" xmlns="http://www.w3.org/2000/svg">
+            <symbol id="icon-star" viewBox="0 0 11 11">
+                <path d="M5.374 0.953042C5.33553 0.976924 5.3045 1.01108 5.28442 1.05166L4.22613 3.19621C4.15632 3.3375 4.05323 3.45971 3.92573 3.55232C3.79822 3.64494 3.65012 3.70518 3.49417 3.72787L1.12688 4.07391C1.08182 4.08028 1.03947 4.09918 1.00463 4.12845C0.969791 4.15772 0.943874 4.19618 0.92983 4.23946C0.915786 4.28274 0.914179 4.32909 0.925193 4.37324C0.936207 4.41739 0.959399 4.45755 0.992127 4.48916L2.70446 6.15612C2.81749 6.26619 2.90204 6.40211 2.95083 6.55214C2.99962 6.70218 3.01118 6.86183 2.9845 7.01733L2.58071 9.37271C2.57285 9.41749 2.57772 9.46357 2.59476 9.50572C2.6118 9.54788 2.64033 9.5844 2.6771 9.61114C2.71386 9.63788 2.7574 9.65377 2.80275 9.65699C2.8481 9.66021 2.89345 9.65064 2.93363 9.62937L5.04975 8.51654C5.18921 8.44331 5.34438 8.40505 5.5019 8.40505C5.65942 8.40505 5.81458 8.44331 5.95404 8.51654L8.07063 9.62937L8.11082 9.65077 8.15622 9.66044 8.20165 9.65728C8.24708 9.65412 8.2907 9.63826 8.32754 9.6115C8.36439 9.58473 8.39297 9.54816 8.41002 9.50594C8.42708 9.46371 8.43192 9.41755 8.424 9.37271L8.01975 7.01687C7.9932 6.86145 8.00481 6.70189 8.05359 6.55195C8.10238 6.40201 8.18687 6.26617 8.29979 6.15612L10.0121 4.48871C10.0446 4.45706 10.0675 4.41696 10.0784 4.37295C10.0893 4.32893 10.0876 4.28276 10.0736 4.23965C10.0595 4.19654 10.0337 4.15821 9.99906 4.129C9.96439 4.0998 9.92224 4.08087 9.87738 4.07437L7.50963 3.72787C7.35385 3.70501 7.20595 3.64468 7.07862 3.55208C6.95129 3.45948 6.84833 3.33736 6.77859 3.19621L5.71984 1.05166C5.69975 1.01108 5.66872 0.976924 5.63025 0.953042C5.59178 0.929159 5.54741 0.916504 5.50213 0.916504C5.45685 0.916504 5.41247 0.929159 5.374 0.953042Z" fill="#FBBF24" stroke="#FBBF24" stroke-width="1.5" stroke-linecap="round"></path>
+            </symbol>
+            <symbol id="icon-outline-star" viewBox="0 0 12 12">
+                <path d="M5.86113 1.03986C5.81916 1.06591 5.78531 1.10318 5.7634 1.14745L4.6089 3.48695C4.53275 3.64108 4.42029 3.77441 4.28119 3.87544C4.14209 3.97648 3.98053 4.0422 3.8104 4.06695L1.2279 4.44445C1.17875 4.4514 1.13254 4.47201 1.09454 4.50394C1.05653 4.53587 1.02826 4.57783 1.01294 4.62504C0.997618 4.67226 0.995866 4.72282 1.00788 4.77098C1.0199 4.81914 1.0452 4.86296 1.0809 4.89745L2.9489 6.71595C3.0722 6.83602 3.16445 6.98429 3.21767 7.14797C3.27089 7.31165 3.2835 7.48581 3.2544 7.65545L2.8139 10.2249C2.80533 10.2738 2.81064 10.3241 2.82923 10.3701C2.84782 10.416 2.87894 10.4559 2.91905 10.4851C2.95916 10.5142 3.00665 10.5316 3.05613 10.5351C3.1056 10.5386 3.15507 10.5282 3.1989 10.5049L5.5074 9.29095C5.65954 9.21106 5.82881 9.16932 6.00065 9.16932C6.17249 9.16932 6.34176 9.21106 6.4939 9.29095L8.8029 10.5049C8.84675 10.5283 8.89628 10.5388 8.94583 10.5354C8.99539 10.5319 9.04298 10.5146 9.08317 10.4854C9.12336 10.4563 9.15454 10.4163 9.17315 10.3703C9.19176 10.3242 9.19704 10.2739 9.1884 10.2249L8.7474 7.65495C8.71843 7.48539 8.7311 7.31134 8.78432 7.14776C8.83754 6.98419 8.92971 6.836 9.0529 6.71595L10.9209 4.89695C10.9563 4.86242 10.9814 4.81868 10.9932 4.77066C11.005 4.72265 11.0032 4.67228 10.9879 4.62525C10.9726 4.57822 10.9445 4.53641 10.9066 4.50455C10.8688 4.47268 10.8228 4.45204 10.7739 4.44495L8.1909 4.06695C8.02096 4.042 7.85962 3.9762 7.72071 3.87517C7.58181 3.77415 7.46949 3.64093 7.3934 3.48695L6.2384 1.14745C6.21649 1.10318 6.18264 1.06591 6.14067 1.03986C6.09871 1.01381 6.0503 1 6.0009 1C5.9515 1 5.90309 1.01381 5.86113 0.953042Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
+            </symbol>
+            <symbol id="icon-google-star" viewBox="0 0 16 16">
+                <path d="M7.81353 1.38615C7.75758 1.42089 7.71245 1.47058 7.68323 1.5296L6.1439 4.64894C6.04237 4.85445 5.89242 5.03221 5.70695 5.16693C5.52149 5.30164 5.30607 5.38927 5.07923 5.42227L1.6359 5.9256C1.57037 5.93487 1.50876 5.96235 1.45808 6.00493C1.40741 6.0475 1.36971 6.10345 1.34928 6.1664C1.32886 6.22935 1.32652 6.29677 1.34254 6.36099C1.35856 6.4252 1.39229 6.48362 1.4399 6.5296L3.93056 8.95427C4.09497 9.11437 4.21796 9.31207 4.28892 9.5303C4.35989 9.74854 4.3767 9.98076 4.3379 10.2069L3.75056 13.6329C3.73914 13.6981 3.74622 13.7651 3.771 13.8264C3.79579 13.8877 3.83728 13.9409 3.89076 13.9797C3.94424 14.0186 4.00757 14.0418 4.07353 14.0464C4.1395 14.0511 4.20545 14.0372 4.2639 14.0063L7.3419 12.3876C7.54475 12.2811 7.77044 12.2254 7.99956 12.2254C8.22868 12.2254 8.45438 12.2811 8.65723 12.3876L11.7359 14.0063C11.7944 14.0374 11.8604 14.0515 11.9265 14.0469C11.9926 14.0423 12.056 14.0192 12.1096 13.9803C12.1632 13.9413 12.2048 13.8881 12.2296 13.8267C12.2544 13.7653 12.2614 13.6982 12.2499 13.6329L11.6619 10.2063C11.6233 9.9802 11.6402 9.74812 11.7111 9.53002C11.7821 9.31192 11.905 9.11434 12.0692 8.95427L14.5599 6.52894C14.6071 6.4829 14.6405 6.42458 14.6563 6.36056C14.6721 6.29654 14.6696 6.22938 14.6492 6.16667C14.6289 6.10397 14.5913 6.04822 14.5409 6.00574C14.4905 5.96325 14.4292 5.93573 14.3639 5.92627L10.9199 5.42227C10.6933 5.38901 10.4782 5.30127 10.293 5.16657C10.1078 5.03188 9.95802 4.85425 9.85656 4.64894L8.31656 1.5296C8.28735 1.47058 8.24222 1.42089 8.18626 1.38615C8.13031 1.35142 8.06576 1.33301 7.9999 1.33301C7.93404 1.33301 7.86949 1.35142 7.81353 1.38615Z" stroke="#FFC107" stroke-width="2" stroke-linecap="round"></path>
+            </symbol>
+        </svg>
+
+        <!-- Header Navigation Bar -->
+        <header class="site-header">
+            <div class="container header-inner">
+                <a href="#" class="brand-logo" aria-label="Developer Bazaar Homepage">
+                    <img src="assets/DeveloperBazaarLogo.svg" alt="Developer Bazaar - Creating Positive Impact" class="brand-logo-img" width="220" height="55">
+                </a>
+                <a href="#quote-form" class="btn-header open-calendly-popup" role="button" aria-haspopup="dialog" aria-controls="calendlyPopup">
+                    Book My Free 29-Min Strategy Call
+                    <span class="arrow" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 17 17" fill="none">
+                            <path d="M0.999094 15.4958L15.1412 1.35363M4.18107 1.00008C6.8396 2.04014 9.73418 2.32379 12.544 1.81961L15.1412 1.35363L14.6752 3.95083C14.1711 6.76068 14.4547 9.65527 15.4948 12.3138" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+                </a>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="hero-section">
+            <div class="container hero-grid">
+                <!-- Left Column: Copy & Visual -->
+                <div class="hero-left">
+                    <!-- Google Rating Pill -->
+                    <div class="rating-pill">
+                        <div class="google-icon-box">
+                            <img src="assets/google.svg" alt="Google" width="18" height="18" class="google-icon-img">
+                        </div>
+                        <div class="star-group">
+                            <svg width="12" height="12" aria-hidden="true">
+                                <use href="#icon-star"></use>
+                            </svg>
+                            <svg width="12" height="12" aria-hidden="true">
+                                <use href="#icon-star"></use>
+                            </svg>
+                            <svg width="12" height="12" aria-hidden="true">
+                                <use href="#icon-star"></use>
+                            </svg>
+                            <svg width="12" height="12" aria-hidden="true">
+                                <use href="#icon-star"></use>
+                            </svg>
+                            <svg width="12" height="12" aria-hidden="true">
+                                <use href="#icon-star"></use>
+                            </svg>
+                        </div>
+                        <span class="rating-text">50+ Fitness clients give us 4.9
+                            Rating</span>
+                    </div>
+
+                    <!-- Main Headline -->
+                    <div class="main-headline">
+                        Stop handing your app idea to the wrong team.
+                    </div>
+
+                    <!-- Sub-Headline -->
+                    <div class="sub-headline">
+                        Launch the Fitness App You've Been Dreaming About in 12
+                        Weeks at One
+                        Fixed Price With Zero Hidden Surprises, Built by a Team
+                        That's Done
+                        It Before
+                    </div>
+
+                    <!-- Description Body Text -->
+                    <div class="hero-paragraph">
+                        Most founders lose months and thousands to agencies that
+                        overpromise, ghost, and hand back broken code. We're the fitness-app specialists who lock your price upfront, show you a
+                        working demo
+                        every week, and hand you 100% code ownership
+                    </div>
+
+                    <!-- Outline CTA Button -->
+                    <div class="cta-outline-wrap">
+                        <a href="#quote-form" class="btn-outline open-calendly-popup">
+                            Talk to a Specialist, Not a Salesperson
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 17 17" fill="none">
+                                <path d="M0.999094 15.4958L15.1412 1.35363M4.18107 1.00008C6.8396 2.04014 9.73418 2.32379 12.544 1.81961L15.1412 1.35363L14.6752 3.95083C14.1711 6.76068 14.4547 9.65527 15.4948 12.3138" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <!-- Guarantee Badges -->
+                    <div class="feature-badges">
+                        <div class="badge-pill">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M5.33801 1.59C4.38555 1.85232 3.4396 2.13774 2.50101 2.446C2.41523 2.47366 2.33898 2.52491 2.28098 2.59388C2.22297 2.66285 2.18555 2.74676 2.17301 2.836C1.61901 6.993 2.89901 10.026 4.42601 12.024C5.07224 12.8786 5.84317 13.6314 6.71301 14.257C7.05901 14.501 7.36501 14.677 7.60601 14.79C7.72601 14.8467 7.82367 14.886 7.89901 14.908C7.93222 14.9181 7.96593 14.9264 8.00001 14.933C8.03375 14.9264 8.06712 14.918 8.10001 14.908C8.17601 14.8853 8.27401 14.846 8.39401 14.79C8.63401 14.677 8.94101 14.5 9.28701 14.257C10.1568 13.6314 10.9278 12.8786 11.574 12.024C13.101 10.027 14.381 6.993 13.827 2.836C13.8145 2.74676 13.777 2.66285 13.719 2.59388C13.661 2.52491 13.5848 2.47366 13.499 2.446C12.848 2.233 11.749 1.886 10.662 1.591C9.55201 1.29 8.53101 1.067 8.00001 1.067C7.47001 1.067 6.44801 1.289 5.33801 1.59ZM5.07201 0.56C6.15701 0.265 7.31001 0 8.00001 0C8.69001 0 9.84301 0.265 10.928 0.56C12.038 0.86 13.157 1.215 13.815 1.43C14.0901 1.52085 14.334 1.68747 14.5187 1.9107C14.7034 2.13394 14.8213 2.40474 14.859 2.692C15.455 7.169 14.072 10.487 12.394 12.682C11.6822 13.6207 10.8338 14.4476 9.87701 15.135C9.54653 15.3734 9.19587 15.5826 8.82901 15.76C8.54901 15.892 8.24801 16 8.00001 16C7.75201 16 7.45201 15.892 7.17101 15.76C6.80415 15.5826 6.45348 15.3734 6.12301 15.135C5.16626 14.4476 4.31785 13.6207 3.60601 12.682C1.92801 10.487 0.545005 7.169 1.14101 2.692C1.17869 2.40474 1.29665 2.13394 1.48132 1.9107C1.666 1.68747 1.9099 1.52085 2.18501 1.43C3.14026 1.11701 4.10287 0.826926 5.07201 0.56Z" fill="#FF5A5F"></path>
+                                <path d="M10.8546 5.14592C10.9012 5.19236 10.9381 5.24754 10.9633 5.30828C10.9886 5.36903 11.0015 5.43415 11.0015 5.49992C11.0015 5.56568 10.9886 5.63081 10.9633 5.69155C10.9381 5.7523 10.9012 5.80747 10.8546 5.85392L7.85463 8.85392C7.80819 8.90048 7.75301 8.93742 7.69227 8.96263C7.63152 8.98784 7.5664 9.00081 7.50063 9.00081C7.43486 9.00081 7.36974 8.98784 7.309 8.96263C7.24825 8.93742 7.19308 8.90048 7.14663 8.85392L5.64663 7.35392C5.60014 7.30743 5.56327 7.25224 5.53811 7.1915C5.51295 7.13076 5.5 7.06566 5.5 6.99992C5.5 6.93417 5.51295 6.86907 5.53811 6.80833C5.56327 6.74759 5.60014 6.6924 5.64663 6.64592C5.69312 6.59943 5.74831 6.56255 5.80905 6.53739C5.86979 6.51223 5.93489 6.49929 6.00063 6.49929C6.06638 6.49929 6.13148 6.51223 6.19222 6.53739C6.25295 6.56255 6.30814 6.59943 6.35463 6.64592L7.50063 7.79292L10.1466 5.14592C10.1931 5.09935 10.2483 5.06241 10.309 5.0372C10.3697 5.012 10.4349 4.99902 10.5006 4.99902C10.5664 4.99902 10.6315 5.012 10.6923 5.0372C10.753 5.06241 10.8082 5.09935 10.8546 5.14592Z" fill="#FF5A5F"></path>
+                            </svg>
+                            <span>100% Money-Back Guarantee</span>
+                        </div>
+
+                        <div class="badge-pill">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                                <path d="M0 3.00008C0 2.20441 0.316072 1.44133 0.878684 0.878704C1.4413 0.316079 2.20436 0 3.00002 0H11.0001C11.7957 0 12.5588 0.316079 13.1214 0.878704C13.684 1.44133 14.0001 2.20441 14.0001 3.00008V5.03014C13.6679 4.99166 13.3325 4.99032 13.0001 5.02614V4.00011H1.00001V11.0003C1.00001 11.5308 1.21072 12.0395 1.58579 12.4146C1.96087 12.7896 2.46958 13.0004 3.00002 13.0004H6.49203C6.27237 13.2969 6.12108 13.6384 6.04903 14.0004H3.00002C2.20436 14.0004 1.4413 13.6843 0.878684 13.1217C0.316072 12.5591 0 11.796 0 11.0003V3.00008ZM10.0441 6.58718L8.60404 5.14714C8.51029 5.05326 8.38308 5.00046 8.2504 5.00036C8.11771 5.00027 7.99043 5.05289 7.89654 5.14664C7.80265 5.2404 7.74986 5.36762 7.74976 5.5003C7.74967 5.63299 7.80229 5.76027 7.89604 5.85416L9.47405 7.43121C9.62872 7.1332 9.81872 6.85186 10.0441 6.58718ZM3.00002 1.00003C2.46958 1.00003 1.96087 1.21075 1.58579 1.58583C1.21072 1.96091 1.00001 2.46964 1.00001 3.00008H13.0001C13.0001 2.46964 12.7894 1.96091 12.4143 1.58583C12.0392 1.21075 11.5305 1.00003 11.0001 1.00003H3.00002ZM6.10403 5.85416C6.19792 5.76027 6.25066 5.63293 6.25066 5.50015C6.25066 5.36737 6.19792 5.24003 6.10403 5.14614C6.01014 5.05225 5.88281 4.99951 5.75003 4.99951C5.61725 4.99951 5.48991 5.05225 5.39603 5.14614L2.89601 7.64621C2.84945 7.69266 2.81251 7.74784 2.7873 7.80859C2.76209 7.86933 2.74912 7.93445 2.74912 8.00022C2.74912 8.06599 2.76209 8.13112 2.7873 8.19186C2.81251 8.25261 2.84945 8.30779 2.89601 8.35423L5.39603 10.8543C5.48991 10.9482 5.61725 11.0009 5.75003 11.0009C5.88281 11.0009 6.01014 10.9482 6.10403 10.8543C6.19792 10.7604 6.25066 10.6331 6.25066 10.5003C6.25066 10.3675 6.19792 10.2402 6.10403 10.1463L3.95702 8.00022L6.10403 5.85416ZM13.8921 6.02417C14.2581 6.06617 14.3631 6.50418 14.1021 6.76619L13.1271 7.74122C12.9871 7.88121 12.876 8.04741 12.8003 8.23032C12.7245 8.41323 12.6855 8.60927 12.6855 8.80725C12.6855 9.00523 12.7245 9.20127 12.8003 9.38418C12.876 9.56709 12.9871 9.73328 13.1271 9.87328C13.2671 10.0133 13.4332 10.1243 13.6162 10.2001C13.7991 10.2758 13.9951 10.3148 14.1931 10.3148C14.391 10.3148 14.5871 10.2758 14.77 10.2001C14.9529 10.1243 15.1191 10.0133 15.2591 9.87328L16.2341 8.89825C16.4951 8.63724 16.9341 8.74224 16.9761 9.10826C17.0457 9.70257 16.9626 10.3048 16.7347 10.8581C16.5067 11.4113 16.1414 11.8973 15.6733 12.27C15.2052 12.6427 14.6497 12.8899 14.0595 12.9881C13.4692 13.0863 12.8637 13.0324 12.3001 12.8314L9.57405 15.5584C9.43406 15.6984 9.26787 15.8095 9.08496 15.8852C8.90206 15.961 8.70602 16 8.50804 16C8.31007 16 8.11403 15.961 7.93113 15.8852C7.74822 15.8095 7.58203 15.6984 7.44204 15.5584C7.30205 15.4184 7.191 15.2522 7.11524 15.0693C7.03948 14.8864 7.00048 14.6904 7.00048 14.4924C7.00048 14.2944 7.03948 14.0984 7.11524 13.9155C7.191 13.7326 7.30205 13.5664 7.44204 13.4264L10.1681 10.7003C9.96697 10.1366 9.91301 9.53094 10.0113 8.94058C10.1095 8.35022 10.3568 7.79468 10.7296 7.32653C11.1025 6.85837 11.5886 6.49307 12.1419 6.26517C12.6953 6.03728 13.2977 5.95433 13.8921 6.02417Z" fill="#FF5A5F"></path>
+                            </svg>
+                            <span>3 Months Free Maintenance</span>
+                        </div>
+
+                        <div class="badge-pill">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M10.4789 1.64709C10.4982 1.58432 10.505 1.51836 10.4988 1.45298C10.4926 1.3876 10.4736 1.32408 10.4428 1.26604C10.4121 1.208 10.3702 1.15659 10.3196 1.11473C10.269 1.07288 10.2107 1.0414 10.1479 1.02209C10.0851 1.00279 10.0192 0.996037 9.95378 1.00222C9.8884 1.00841 9.82488 1.02742 9.76684 1.05815C9.70881 1.08889 9.65739 1.13075 9.61553 1.18136C9.57368 1.23197 9.5422 1.29032 9.52289 1.35309L5.52289 14.3531C5.48391 14.4799 5.49688 14.6169 5.55895 14.7341C5.62103 14.8514 5.72712 14.9391 5.85389 14.9781C5.98067 15.0171 6.11774 15.0041 6.23495 14.942C6.35216 14.88 6.43991 14.7739 6.47889 14.6471L10.4789 1.64709ZM4.85489 4.14609C4.90146 4.19254 4.9384 4.24771 4.96361 4.30846C4.98881 4.3692 5.00179 4.43433 5.00179 4.50009C5.00179 4.56586 4.98881 4.63098 4.96361 4.69173C4.9384 4.75247 4.90146 4.80765 4.85489 4.85409L1.70789 8.00009L4.85489 11.1461C4.94878 11.24 5.00153 11.3673 5.00153 11.5001C5.00153 11.6329 4.94878 11.7602 4.85489 11.8541C4.76101 11.948 4.63367 12.0007 4.50089 12.0007C4.36812 12.0007 4.24078 11.948 4.14689 11.8541L0.646894 8.35409C0.600331 8.30765 0.563388 8.25247 0.538181 8.19173C0.512975 8.13098 0.5 8.06586 0.5 8.00009C0.5 7.93433 0.512975 7.8692 0.538181 7.80846C0.563388 7.74771 0.600331 7.69254 0.646894 7.64609L4.14689 4.14609C4.19334 4.09953 4.24852 4.06259 4.30926 4.03738C4.37001 4.01217 4.43513 3.9992 4.50089 3.9992C4.56666 3.9992 4.63178 4.01217 4.69253 4.03738C4.75327 4.06259 4.80845 4.09953 4.85489 4.14609ZM11.1469 4.14609C11.1003 4.19254 11.0634 4.24771 11.0382 4.30846C11.013 4.3692 11 4.43433 11 4.50009C11 4.56586 11.013 4.63098 11.0382 4.69173C11.0634 4.75247 11.1003 4.80765 11.1469 4.85409L14.2939 8.00009L11.1469 11.1461C11.1004 11.1926 11.0635 11.2478 11.0384 11.3085C11.0132 11.3692 11.0003 11.4344 11.0003 11.5001C11.0003 11.5658 11.0132 11.6309 11.0384 11.6917C11.0635 11.7524 11.1004 11.8076 11.1469 11.8541C11.1934 11.9006 11.2486 11.9375 11.3093 11.9626C11.3701 11.9878 11.4352 12.0007 11.5009 12.0007C11.5666 12.0007 11.6317 11.9878 11.6925 11.9626C11.7532 11.9375 11.8084 11.9006 11.8549 11.8541L15.3549 8.35409C15.4015 8.30765 15.4384 8.25247 15.4636 8.19173C15.4888 8.13098 15.5018 8.06586 15.5018 8.00009C15.5018 7.93433 15.4888 7.8692 15.4636 7.80846C15.4384 7.74771 15.4015 7.69254 15.3549 7.64609L11.8549 4.14609C11.8084 4.09953 11.7533 4.06259 11.6925 4.03738C11.6318 4.01217 11.5667 3.9992 11.5009 3.9992C11.4351 3.9992 11.37 4.01217 11.3093 4.03738C11.2485 4.06259 11.1933 4.09953 11.1469 4.14609Z" fill="#FF5A5F"></path>
+                            </svg>
+                            <span>Full Source Code Ownership</span>
+                        </div>
+                    </div>
+
+                    <!-- Hero Graphic Mockup -->
+                    <div class="hero-mockup-container">
+                        <img src="assets/heroImage.svg" alt="Illustrative Fitness App Mobile Concept" class="hero-mockup-img" width="560" height="315" loading="eager" fetchpriority="high">
+                    </div>
+                </div>
+
+                <!-- Right Column: Form Card -->
+                <div class="hero-right" id="quote-form">
+                    <div class="form-card-wrapper">
+                        <div class="form-card">
+                            <div class="form-header-title">Get My Free App Plan
+                                &amp; Quote</div>
+                            <div class="form-header-sub">What you get on the
+                                call:</div>
+
+                            <ul class="form-checklist">
+                                <li class="checklist-item">
+                                    <span class="check-icon-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                            <path d="M9.9992 3L4.49975 8.4996L2 5.99978" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path></svg></span>
+                                    <span class="card-text">Your exact price and
+                                        launch date, upfront, no
+                                        guessing</span>
+                                </li>
+                                <li class="checklist-item">
+                                    <span class="check-icon-circle"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                            <path d="M9.9992 3L4.49975 8.4996L2 5.99978" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path></svg></span>
+                                    <span class="card-text">A clear plan of what
+                                        to build first, and what to skip</span>
+                                </li>
+                                <li class="checklist-item">
+                                    <span class="check-icon-circle"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                            <path d="M9.9992 3L4.49975 8.4996L2 5.99978" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path></svg></span>
+                                    <span class="card-text">A roadmap you keep,
+                                        even if you don't hire us</span>
+                                </li>
+                            </ul>
+
+                            <form class="quote-form db-google-form" id="leadForm" action="#" method="POST">
+                                <!-- Honeypot -->
+                                <div aria-hidden="true" style="
+                    position: absolute !important;
+                    left: -9999px !important;
+                    width: 1px !important;
+                    height: 1px !important;
+                    overflow: hidden !important;
+                  ">
+                                    <label>Website</label>
+                                    <input type="text" name="website" tabindex="-1" autocomplete="off">
+                                </div>
+
+                                <!-- Hidden Metadata -->
+                                <input type="hidden" name="form_name" value="Hero Form">
+                                <input type="hidden" name="page_url" value="">
+                                <input type="hidden" name="page_title" value="">
+
+                                <div class="form-field-wrap">
+                                    <input type="text" id="fullName" name="name" class="form-input" placeholder="Full Name*" autocomplete="name" autocapitalize="words" minlength="2" maxlength="80" required="">
+                                </div>
+
+                                <div class="form-field-wrap">
+                                    <input type="text" id="workEmail" name="email" class="form-input" placeholder="Email*" required="">
+                                </div>
+
+                                <div class="phone-input-row">
+                                    <div class="country-code-wrap">
+                                        <select id="countryCode" name="country" class="form-select country-select" autocomplete="tel-country-code" aria-label="Country Code" required="">
+                                            <option value="USA (+1)" selected="">USA (+1)</option>
+                                            <option value="Canada (+1)">Canada
+                                                (+1)</option>
+                                            <option value="Australia (+61)">Australia
+                                                (+61)</option>
+                                            <option value="UK (+44)">UK
+                                                (+44)</option>
+                                            <option value="UAE (+971)">UAE
+                                                (+971)</option>
+                                        </select>
+                                        <span class="select-chevron" aria-hidden="true">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 1L5 5L9 1" stroke="#6B6B75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <div class="phone-number-wrap">
+                                        <input type="tel" id="phoneNumber" name="phone" class="form-input" placeholder="Mobile Number*" autocomplete="tel" inputmode="tel" minlength="7" maxlength="15" required="">
+                                    </div>
+                                </div>
+
+                                <div class="form-field-wrap custom-select-wrap" id="budgetSelectWrap">
+                                    <select id="projectBudget" name="budget" class="form-select custom-select-hidden" required="">
+                                        <option value="" disabled="" selected="" hidden="">
+                                            Select a Budget Range
+                                        </option>
+                                        <option value="$5K - $10K">$5K -
+                                            $10K</option>
+                                        <option value="$10K - $20K">$10K -
+                                            $20K</option>
+                                        <option value="$20K - $50K">$20K -
+                                            $50K</option>
+                                        <option value="$50K +">$50K +</option>
+                                    </select>
+
+                                    <div class="custom-select-trigger" tabindex="0" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-label="Select a Budget Range">
+                                        <span class="custom-select-value">Select
+                                            a Budget Range</span>
+                                        <span class="select-chevron" aria-hidden="true">
+                                            <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 1L5 5L9 1" stroke="#6B6B75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </span>
+                                    </div>
+
+                                    <div class="custom-select-menu" role="listbox">
+                                        <div class="custom-select-option" role="option" data-value="$5K - $10K">
+                                            <span>$5K - $10K</span>
+                                        </div>
+                                        <div class="custom-select-option" role="option" data-value="$10K - $20K">
+                                            <span>$10K - $20K</span>
+                                        </div>
+                                        <div class="custom-select-option" role="option" data-value="$20K - $50K">
+                                            <span>$20K - $50K</span>
+                                        </div>
+                                        <div class="custom-select-option" role="option" data-value="$50K +">
+                                            <span>$50K +</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-field-wrap">
+                                    <textarea id="projectRequirement" name="message" class="form-input form-textarea" placeholder="Please share your requirements" rows="3" spellcheck="true"></textarea>
+                                </div>
+
+                                <label class="nda-checkbox-wrap" for="ndaConsent">
+                                    <input type="checkbox" id="ndaConsent" name="nda" value="Yes">
+                                    <span class="custom-box"></span>
+                                    <span class="nda-text">Your ideas are fully
+                                        protected under our NDA.</span>
+                                </label>
+
+                                <button type="submit" class="btn-submit gf-submit">
+                                    Get My Free App Plan &amp; Quote
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 17 17" fill="none">
+                                        <path d="M1.00007 15.4959L15.1422 1.35381M4.18205 1.00026C6.84057 2.04032 9.73515 2.32398 12.545 1.8198L15.1422 1.35381L14.6762 3.95102C14.172 6.76087 14.4557 9.65545 15.4958 12.314" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </button>
+
+                                <div class="gf-message" role="status" aria-live="polite"></div>
+                            </form>
+
+                            <div class="form-footer-info">
+                                <div class="footer-bold">
+                                    Free 29-minute call · No obligation
+                                </div>
+                                <div class="footer-small">
+                                    We'll only use your details to respond to
+                                    your enquiry.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Bottom Stats Banner -->
+        <section class="stats-banner">
+            <div class="container stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-desc">Fitness Apps launched</div>
+                </div>
+
+                <div class="stat-divider" aria-hidden="true"></div>
+
+                <div class="stat-item">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-desc">Years building apps</div>
+                </div>
+
+                <div class="stat-divider" aria-hidden="true"></div>
+
+                <div class="stat-item">
+                    <div class="stat-number">12 wks</div>
+                    <div class="stat-desc">average launch time</div>
+                </div>
+
+                <div class="stat-divider" aria-hidden="true"></div>
+
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-desc">Countries Served</div>
+                </div>
+
+                <div class="stat-divider" aria-hidden="true"></div>
+
+                <div class="stat-item">
+                    <div class="stat-number">3</div>
+                    <div class="stat-desc">apps we built got funded</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Studies Section ("The Founders Were Once Exactly Where You Are Now") -->
+        <section class="case-studies-section" id="case-studies" aria-label="Founder Case Studies">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header text-center">
+                    <div class="section-title">
+                        The Founders Were Once
+                        <span class="title-highlight">Exactly Where You Are
+                            Now</span>
+                    </div>
+                    <div class="section-subtitle">
+                        An idea, a budget, and a fear of getting it wrong. See
+                        how they
+                        launched,<br>
+                        and where they are today.
+                    </div>
+                </div>
+
+                <!-- Case Studies List (Single Card Pattern Reused) -->
+                <div class="case-studies-list">
+                    <!-- Card 1: AI Personal Trainer Fitness App -->
+                    <article class="case-study-card" style="top: 80px; z-index: 1;">
+                        <div class="case-study-main">
+                            <div class="case-study-media">
+                                <img src="assets/meet1.svg" alt="AI Personal Trainer Fitness App Mockup" class="case-study-img" loading="lazy" decoding="async">
+                            </div>
+
+                            <div class="case-study-info">
+                                <span class="case-study-kicker">CASE STUDY 1 —
+                                    RAISED FUNDING</span>
+                                <div class="case-study-title">AI Personal Trainer Fitness App</div>
+                                <div class="case-study-badge">
+                                    Launched in 8 weeks → raised $100K in
+                                    funding
+                                </div>
+
+                                <div class="case-study-story-grid">
+                                    <div class="story-col">
+                                        <div class="story-label">THE
+                                            DREAM:</div>
+                                        <p class="story-text">
+                                            Dmitri wanted to launch an
+                                            AI personal-trainer fitness app, but
+                                            another agency had quoted him $60K
+                                            and 12+ months.
+                                        </p>
+                                    </div>
+                                    <div class="story-col">
+                                        <div class="story-label">WHAT WE
+                                            DID:</div>
+                                        <p class="story-text">
+                                            Built and launched the full MVP in 8
+                                            weeks at a fixed
+                                            price, with workout tracking and progress analytics built in from day one.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="case-study-outcomes">
+                                    <div class="story-label">OUTCOMES</div>
+                                    <ul class="outcomes-list">
+                                        <li class="outcome-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <path d="M11.6644 3.5L5.24841 9.9162L2.33203 6.99975" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                            </svg>
+                                            <span>Launched on time</span>
+                                        </li>
+                                        <li class="outcome-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <path d="M11.6644 3.5L5.24841 9.9162L2.33203 6.99975" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                            </svg>
+                                            <span>1,000 users in first 4
+                                                months</span>
+                                        </li>
+                                        <li class="outcome-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <path d="M11.6644 3.5L5.24841 9.9162L2.33203 6.99975" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                            </svg>
+                                            <span>Raised $100K in funding</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Founder Quote Box -->
+                        <div class="case-study-quote-box">
+                            <svg class="quote-mark-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
+                                <g opacity="0.3">
+                                    <path d="M9.41421 17.0118C9.03914 17.3244 8.53043 17.5 8 17.5H5C4.46957 17.5 3.96086 17.3244 3.58579 17.0118C3.21071 16.6993 3 16.2754 3 15.8333V7.5C3 6.17392 3.63214 4.90215 4.75736 3.96447C5.88258 3.02678 7.4087 2.5 9 2.5C9.26522 2.5 9.51957 2.5878 9.70711 2.74408C9.89464 2.90036 10 3.11232 10 3.33333V5C10 5.22101 9.89464 5.43298 9.70711 5.58926C9.51957 5.74554 9.26522 5.83333 9 5.83333C8.46957 5.83333 7.96086 6.00893 7.58579 6.32149C7.21071 6.63405 7 7.05797 7 7.5V8.33333C7 8.55435 7.10536 8.76631 7.29289 8.92259C7.48043 9.07887 7.73478 9.16667 8 9.16667C8.53043 9.16667 9.03914 9.34226 9.41421 9.65482C9.78929 9.96738 10 10.3913 10 10.8333V15.8333C10 16.2754 9.78929 16.6993 9.41421 17.0118Z" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                    <path d="M20.4142 17.0118C20.0391 17.3244 19.5304 17.5 19 17.5H16C15.4696 17.5 14.9609 17.3244 14.5858 17.0118C14.2107 16.6993 14 16.2754 14 15.8333V7.5C14 6.17392 14.6321 4.90215 15.7574 3.96447C16.8826 3.02678 18.4087 2.5 20 2.5C20.2652 2.5 20.5196 2.5878 20.7071 2.74408C20.8946 2.90036 21 3.11232 21 3.33333V5C21 5.22101 20.8946 5.43298 20.7071 5.58926C20.5196 5.74554 20.2652 5.83333 20 5.83333C19.4696 5.83333 18.9609 6.00893 18.5858 6.32149C18.2107 6.63405 18 7.05797 18 7.5V8.33333C18 8.55435 18.1054 8.76631 18.2929 8.92259C18.4804 9.07887 18.7348 9.16667 19 9.16667C19.5304 9.16667 20.0391 9.34226 20.4142 9.65482C20.7893 9.96738 21 10.3913 21 10.8333V15.8333C21 16.2754 20.7893 16.6993 20.4142 17.0118Z" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                </g>
+                            </svg>
+                            <img src="assets/founderDmitri.svg" alt="Dmitri Mirakyan" class="quote-avatar" width="44" height="44" loading="lazy" decoding="async">
+                            <div class="quote-content">
+                                <p class="quote-text">
+                                    “What sold me was seeing something new
+                                    every week
+                                    instead of excuses. By the time we launched
+                                    I wasn't nervous,
+                                    I'd already watched it come together.”
+                                </p>
+                                <div class="quote-author">
+                                    – Dmitri Mirakyan, Founder
+                                    <img src="assets/us.svg" alt="US Flag" class="flag-icon" width="20" height="14">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 2: Inclusive Fitness for People With Disabilities -->
+                    <article class="case-study-card" style="top: 96px; z-index: 2;">
+                        <div class="case-study-main">
+                            <div class="case-study-media">
+                                <img src="assets/meet2.svg" alt="Inclusive Fitness App Mockup" class="case-study-img" loading="lazy" decoding="async">
+                            </div>
+
+                            <div class="case-study-info">
+                                <span class="case-study-kicker">CASE STUDY 2 —
+                                    FAST TRACTION</span>
+                                <div class="case-study-title">
+                                    Inclusive Fitness for People With Disabilities
+                                </div>
+                                <div class="case-study-badge">
+                                    Idea to live app in 10 weeks → 40%
+                                    weekly active users
+                                </div>
+
+                                <div class="case-study-story-grid">
+                                    <div class="story-col">
+                                        <div class="story-label">THE
+                                            DREAM:</div>
+                                        <p class="story-text">
+                                            Despina had an idea for inclusive fitness for people with disabilities, but no technical team,
+                                            and was terrified of
+                                            spending months building something
+                                            no one would use.
+                                        </p>
+                                    </div>
+                                    <div class="story-col">
+                                        <div class="story-label">WHAT WE
+                                            DID:</div>
+                                        <p class="story-text">
+                                            Took her from idea to a live, tested
+                                            MVP in 10 weeks, with workout plans, real-time coaching chat, and progress tracking built in, so
+                                            it was ready for real users from day
+                                            one.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="case-study-outcomes">
+                                    <div class="story-label">OUTCOMES</div>
+                                    <ul class="outcomes-list">
+                                        <li class="outcome-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <path d="M11.6644 3.5L5.24841 9.9162L2.33203 6.99975" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                            </svg>
+                                            <span>Launched in 10 weeks</span>
+                                        </li>
+                                        <li class="outcome-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <path d="M11.6644 3.5L5.24841 9.9162L2.33203 6.99975" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                            </svg>
+                                            <span>500 downloads in the first 3
+                                                months</span>
+                                        </li>
+                                        <li class="outcome-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <path d="M11.6644 3.5L5.24841 9.9162L2.33203 6.99975" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                            </svg>
+                                            <span>40% of users active every
+                                                week</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Founder Quote Box -->
+                        <div class="case-study-quote-box">
+                            <svg class="quote-mark-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
+                                <g opacity="0.3">
+                                    <path d="M9.41421 17.0118C9.03914 17.3244 8.53043 17.5 8 17.5H5C4.46957 17.5 3.96086 17.3244 3.58579 17.0118C3.21071 16.6993 3 16.2754 3 15.8333V7.5C3 6.17392 3.63214 4.90215 4.75736 3.96447C5.88258 3.02678 7.4087 2.5 9 2.5C9.26522 2.5 9.51957 2.5878 9.70711 2.74408C9.89464 2.90036 10 3.11232 10 3.33333V5C10 5.22101 9.89464 5.43298 9.70711 5.58926C9.51957 5.74554 9.26522 5.83333 9 5.83333C8.46957 5.83333 7.96086 6.00893 7.58579 6.32149C7.21071 6.63405 7 7.05797 7 7.5V8.33333C7 8.55435 7.10536 8.76631 7.29289 8.92259C7.48043 9.07887 7.73478 9.16667 8 9.16667C8.53043 9.16667 9.03914 9.34226 9.41421 9.65482C9.78929 9.96738 10 10.3913 10 10.8333V15.8333C10 16.2754 9.78929 16.6993 9.41421 17.0118Z" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                    <path d="M20.4142 17.0118C20.0391 17.3244 19.5304 17.5 19 17.5H16C15.4696 17.5 14.9609 17.3244 14.5858 17.0118C14.2107 16.6993 14 16.2754 14 15.8333V7.5C14 6.17392 14.6321 4.90215 15.7574 3.96447C16.8826 3.02678 18.4087 2.5 20 2.5C20.2652 2.5 20.5196 2.5878 20.7071 2.74408C20.8946 2.90036 21 3.11232 21 3.33333V5C21 5.22101 20.8946 5.43298 20.7071 5.58926C20.5196 5.74554 20.2652 5.83333 20 5.83333C19.4696 5.83333 18.9609 6.00893 18.5858 6.32149C18.2107 6.63405 18 7.05797 18 7.5V8.33333C18 8.55435 18.1054 8.76631 18.2929 8.92259C18.4804 9.07887 18.7348 9.16667 19 9.16667C19.5304 9.16667 20.0391 9.34226 20.4142 9.65482C20.7893 9.96738 21 10.3913 21 10.8333V15.8333C21 16.2754 20.7893 16.6993 20.4142 17.0118Z" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                </g>
+                            </svg>
+                            <img src="assets/ChatGPT_Image_Sep_18_2026_12_32_15_AM.svg" alt="Despina Mikhail" class="quote-avatar" width="44" height="44" loading="lazy" decoding="async">
+                            <div class="quote-content">
+                                <p class="quote-text">
+                                    “I'm not technical, so I was terrified
+                                    I'd spend
+                                    everything and end up with something nobody
+                                    used. Then I
+                                    watched real people sign up and complete their first workout in the first week. That
+                                    feeling was everything.”
+                                </p>
+                                <div class="quote-author">
+                                    – Despina Mikhail, Founder
+                                    <img src="assets/au.svg" alt="Australia Flag" class="flag-icon" width="20" height="14">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 3: Rescued &amp; Relaunched Fitness App -->
+                    <article class="case-study-card" style="top: 112px; z-index: 3;">
+                        <div class="case-study-main">
+                            <div class="case-study-media">
+                                <img src="assets/meet3.svg" alt="Rescued Fitness App Mockup" class="case-study-img" loading="lazy" decoding="async">
+                            </div>
+
+                            <div class="case-study-info">
+                                <span class="case-study-kicker">CASE STUDY 3 —
+                                    RESCUE / ON-TIME DELIVERY</span>
+                                <div class="case-study-title">
+                                    Rescued &amp; Relaunched Fitness App
+                                </div>
+                                <div class="case-study-badge">
+                                    Rescued a failed build → relaunched in
+                                    12 weeks, on
+                                    budget
+                                </div>
+
+                                <div class="case-study-story-grid">
+                                    <div class="story-col">
+                                        <div class="story-label">THE
+                                            DREAM:</div>
+                                        <p class="story-text">
+                                            Maryia came to us after a previous
+                                            agency handed back
+                                            broken code, leaving her $20K down
+                                            with nothing to show.
+                                        </p>
+                                    </div>
+                                    <div class="story-col">
+                                        <div class="story-label">WHAT WE
+                                            DID:</div>
+                                        <p class="story-text">
+                                            Rebuilt the app from the ground up
+                                            on a fixed price locked
+                                            upfront, with a working demo every
+                                            week so she always knew
+                                            exactly where things stood.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="case-study-outcomes">
+                                    <div class="story-label">OUTCOMES</div>
+                                    <ul class="outcomes-list">
+                                        <li class="outcome-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <path d="M11.6644 3.5L5.24841 9.9162L2.33203 6.99975" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                            </svg>
+                                            <span>Rescued and relaunched in 12
+                                                weeks</span>
+                                        </li>
+                                        <li class="outcome-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <path d="M11.6644 3.5L5.24841 9.9162L2.33203 6.99975" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                            </svg>
+                                            <span>Delivered on time and on
+                                                budget</span>
+                                        </li>
+                                        <li class="outcome-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                                <path d="M11.6644 3.5L5.24841 9.9162L2.33203 6.99975" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                            </svg>
+                                            <span>Full source code and IP handed
+                                                over, zero lock-in</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Founder Quote Box -->
+                        <div class="case-study-quote-box">
+                            <svg class="quote-mark-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
+                                <g opacity="0.3">
+                                    <path d="M9.41421 17.0118C9.03914 17.3244 8.53043 17.5 8 17.5H5C4.46957 17.5 3.96086 17.3244 3.58579 17.0118C3.21071 16.6993 3 16.2754 3 15.8333V7.5C3 6.17392 3.63214 4.90215 4.75736 3.96447C5.88258 3.02678 7.4087 2.5 9 2.5C9.26522 2.5 9.51957 2.5878 9.70711 2.74408C9.89464 2.90036 10 3.11232 10 3.33333V5C10 5.22101 9.89464 5.43298 9.70711 5.58926C9.51957 5.74554 9.26522 5.83333 9 5.83333C8.46957 5.83333 7.96086 6.00893 7.58579 6.32149C7.21071 6.63405 7 7.05797 7 7.5V8.33333C7 8.55435 7.10536 8.76631 7.29289 8.92259C7.48043 9.07887 7.73478 9.16667 8 9.16667C8.53043 9.16667 9.03914 9.34226 9.41421 9.65482C9.78929 9.96738 10 10.3913 10 10.8333V15.8333C10 16.2754 9.78929 16.6993 9.41421 17.0118Z" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                    <path d="M20.4142 17.0118C20.0391 17.3244 19.5304 17.5 19 17.5H16C15.4696 17.5 14.9609 17.3244 14.5858 17.0118C14.2107 16.6993 14 16.2754 14 15.8333V7.5C14 6.17392 14.6321 4.90215 15.7574 3.96447C16.8826 3.02678 18.4087 2.5 20 2.5C20.2652 2.5 20.5196 2.5878 20.7071 2.74408C20.8946 2.90036 21 3.11232 21 3.33333V5C21 5.22101 20.8946 5.43298 20.7071 5.58926C20.5196 5.74554 20.2652 5.83333 20 5.83333C19.4696 5.83333 18.9609 6.00893 18.5858 6.32149C18.2107 6.63405 18 7.05797 18 7.5V8.33333C18 8.55435 18.1054 8.76631 18.2929 8.92259C18.4804 9.07887 18.7348 9.16667 19 9.16667C19.5304 9.16667 20.0391 9.34226 20.4142 9.65482C20.7893 9.96738 21 10.3913 21 10.8333V15.8333C21 16.2754 20.7893 16.6993 20.4142 17.0118Z" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                </g>
+                            </svg>
+                            <img src="assets/mayria.svg" alt="Maryia" class="quote-avatar" width="44" height="44" loading="lazy" decoding="async">
+                            <div class="quote-content">
+                                <p class="quote-text">
+                                    “My first agency left me $20K down
+                                    with code that didn't
+                                    even run. I was scared to trust anyone
+                                    again. This time I
+                                    could see it working every single week, and
+                                    now it's actually
+                                    mine.”
+                                </p>
+                                <div class="quote-author">
+                                    – Maryia, Founder
+                                    <img src="assets/us.svg" alt="US Flag" class="flag-icon" width="20" height="14">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Founders Choose Us Section -->
+        <section class="features-section" id="why-us">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header text-center">
+                    <div class="section-title">
+                        Why Founders Choose Us Over
+                        <span class="title-highlight">"Any App Developer"</span>
+                    </div>
+                    <div class="section-subtitle">
+                        Building a fitness app is nothing like building a website. Here's
+                        what you get with a team that does only this, and does
+                        it right.
+                    </div>
+                </div>
+
+                <!-- Feature Rows Container -->
+                <div class="feature-rows">
+                    <!-- Row 1: Left Image, Right Text -->
+                    <div class="feature-row">
+                        <div class="feature-img-col">
+                            <img src="assets/developerFirst.svg" alt="Developer Bazaar Fitness App Specialist" class="feature-img" width="560" height="420" loading="lazy" decoding="async">
+                        </div>
+                        <div class="feature-text-col">
+                            <span class="feature-kicker">Specialist, not
+                                generalist</span>
+                            <div class="feature-title">
+                                If You Want a Generalist Who Builds Anything,
+                                Keep Looking. We Only Build Fitness Apps.
+                            </div>
+                            <div class="feature-desc">
+                                Generalists learn fitness apps on your budget,
+                                one project
+                                squeezed between websites and logos. We've
+                                shipped 50+ and
+                                nothing else like it, so your product is built
+                                right the first
+                                time, by a team that already knows what keeps users training and coming back.
+                            </div>
+                            <a href="#quote-form" class="btn btn-primary-cta open-calendly-popup">
+                                See the fitness apps we've built
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                        <path d="M0.999094 15.4963L15.1412 1.35412M4.18107 1.00057C6.8396 2.04063 9.73515 2.32428 12.544 1.8201L15.1412 1.35412L14.6752 3.95132C14.1711 6.76117 14.4547 9.65575 15.4948 12.3143" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Row 2: Left Text, Right Image (Alternating Layout) -->
+                    <div class="feature-row feature-row-reverse">
+                        <div class="feature-text-col">
+                            <span class="feature-kicker">Zero risk to
+                                start</span>
+                            <div class="feature-title">
+                                Our Money Is Safe, And So Is Your Plan, Either
+                                Way
+                            </div>
+                            <div class="feature-desc">
+                                Start with zero risk. If we don't deliver what
+                                we agreed, you
+                                get your money back. And even if you walk away,
+                                the fixed-price
+                                quote and launch roadmap from your first call
+                                are yours to keep.
+                                You lose nothing by starting the conversation.
+                            </div>
+                            <a href="#quote-form" class="btn btn-primary-cta open-calendly-popup">
+                                Get My Free App Plan &amp; Quote
+                                <span class="arrow-icon"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                        <path d="M0.999094 15.4963L15.1412 1.35412M4.18107 1.00057C6.8396 2.04063 9.73515 2.32428 12.544 1.8201L15.1412 1.35412L14.6752 3.95132C14.1711 6.76117 14.4547 9.65575 15.4948 12.3143" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+                            </a>
+                        </div>
+                        <div class="feature-img-col">
+                            <img src="assets/developerSecond.svg" alt="100% Risk Free Guarantee" class="feature-img" width="560" height="420" loading="lazy" decoding="async">
+                        </div>
+                    </div>
+
+                    <!-- Row 3: Left Image, Right Text -->
+                    <div class="feature-row">
+                        <div class="feature-img-col">
+                            <img src="assets/developerThird.svg" alt="Support After Launch" class="feature-img" width="560" height="420" loading="lazy" decoding="async">
+                        </div>
+                        <div class="feature-text-col">
+                            <span class="feature-kicker">Support after
+                                launch</span>
+                            <div class="feature-title">
+                                Launch Day Isn't Goodbye. It's Where We Really
+                                Show Up.
+                            </div>
+                            <div class="feature-desc">
+                                Most agencies vanish the moment your app goes
+                                live, right when
+                                the real questions start. We stay. You get 3
+                                months of free
+                                maintenance after launch, so bugs get fixed,
+                                your app stays
+                                stable, and you focus on growing users instead
+                                of chasing your
+                                developer.
+                            </div>
+                            <a href="#quote-form" class="btn btn-primary-cta open-calendly-popup">
+                                What's included after launch
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                        <path d="M0.999094 15.4963L15.1412 1.35412M4.18107 1.00057C6.8396 2.04063 9.73418 2.32428 12.544 1.8201L15.1412 1.35412L14.6752 3.95132C14.1711 6.76117 14.4547 9.65575 15.4948 12.3143" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section" id="testimonials">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header text-center">
+                    <div class="section-title">
+                        Real Founders. Real Fitness Apps.
+                        <span class="title-highlight">Real Results.</span>
+                    </div>
+                    <div class="section-subtitle">
+                        Don't take our word for it, hear from the founders who
+                        trusted us to
+                        build their app, and launched.
+                    </div>
+                </div>
+
+                <!-- 6 Testimonial Cards Grid -->
+                <div class="testimonials-grid">
+                    <!-- Card 1: Video Card — Sergie & Sofia -->
+                    <div class="testimonial-card video-card">
+                        <!-- data-video-id holds the YouTube video ID; JS injects the iframe -->
+                        <div class="video-thumb-wrap" role="button" tabindex="0" aria-label="Play video: Sergie and Sofia testimonial">
+                            <img src="assets/sofia.svg" alt="Sergie and Sofia Video Testimonial" class="video-thumb-img" width="360" height="200" loading="lazy" decoding="async">
+                            <div class="video-play-btn" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3.51204 2.66554C3.39453 2.8686 3.33269 3.09905 3.33276 3.33364V12.6664C3.33269 12.9009 3.39453 13.1314 3.51204 13.3345C3.62955 13.5375 3.79856 13.706 4.00201 13.8228C4.20547 13.9397 4.43615 14.0008 4.67079 14C4.90542 13.9992 5.13569 13.9365 5.33834 13.8183L13.3393 9.15192C13.541 9.03446 13.7083 8.86614 13.8245 8.66378C13.9407 8.46142 14.0018 8.2321 14.0016 7.99876C14.0014 7.76541 13.9399 7.53621 13.8233 7.33405C13.7068 7.13189 13.5392 6.96385 13.3373 6.84674L5.33834 2.18172C5.13569 2.06348 4.90542 2.0008 4.67079 2.00001C4.43615 1.99921 4.20547 2.06033 4.00201 2.17718C3.79856 2.29404 3.62955 2.46249 3.51204 2.66554Z" stroke="white" stroke-width="2" stroke-linecap="round"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-headline">
+                                "We were initially nervous, but they delivered
+                                every single
+                                outcome they committed to in their work."
+                            </div>
+                            <div class="card-author">- Sergie and Sofia,
+                                USA</div>
+                            <button class="btn btn-play-video" aria-label="Play video">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                    <path d="M3.07484 2.33235C2.97202 2.51002 2.91791 2.71167 2.91797 2.91694V11.0831C2.91791 11.2883 2.97202 11.49 3.07484 11.6676C3.17766 11.8453 3.32554 11.9927 3.50356 12.095C3.68158 12.1972 3.88344 12.2507 4.08874 12.25C4.29404 12.2493 4.49553 12.1945 4.67285 12.091L11.6737 8.00793C11.8502 7.90515 11.9966 7.75787 12.0982 7.58081C12.1999 7.40374 12.2533 7.20309 12.2532 6.99891C12.253 6.79474 12.1992 6.59418 12.0972 6.41729C11.9952 6.2404 11.8486 6.09337 11.672 5.9909L4.67285 1.909C4.49553 1.80555 4.29404 1.7507 4.08874 1.75001C3.88344 1.74931 3.68158 1.80279 3.50356 1.90503C3.32554 2.00728 3.17766 2.15468 3.07484 2.33235Z" stroke="white" stroke-width="2" stroke-linecap="round"></path>
+                                </svg>
+                                Play Video
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Clutch Text Review — Maiken Paaske -->
+                    <div class="testimonial-card text-card">
+                        <div class="card-stars-row tp-stars-row">
+                            <img src="assets/star.svg" alt="Star" width="14" height="14">
+                            <img src="assets/star.svg" alt="Star" width="14" height="14">
+                            <img src="assets/star.svg" alt="Star" width="14" height="14">
+                            <img src="assets/star.svg" alt="Star" width="14" height="14">
+                            <img src="assets/star.svg" alt="Star" width="14" height="14">
+                        </div>
+                        <div class="card-headline">
+                            "Seamless from first call to launch"
+                        </div>
+                        <div class="card-body-text">
+                            "From the initial consultation right through to
+                            deployment, the
+                            entire experience was seamless. The team took the
+                            time to really
+                            understand our goals, kept us informed at every
+                            stage, and
+                            delivered a solution that created immediate business
+                            value. There
+                            were no surprises and no delays, just clear
+                            communication and a
+                            product that did exactly what we needed. If you want
+                            a team that
+                            listens and delivers, I highly recommend Developer
+                            Bazaar
+                            Technologies."
+                        </div>
+                        <div class="card-footer-row">
+                            <div class="user-info">
+                                <img src="assets/maiken.svg" alt="Maiken Paaske" class="user-avatar-img" width="44" height="44" loading="lazy" decoding="async">
+                                <div class="user-meta">
+                                    <span class="user-name">Maiken Paaske</span>
+                                    <span class="user-country">Denmark</span>
+                                </div>
+                            </div>
+                            <div class="source-brand tp-brand-tag">
+                                <img src="assets/clutch.svg" alt="Clutch" width="60" height="60">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Video Card — Jimmy Wu -->
+                    <div class="testimonial-card video-card">
+                        <div class="video-thumb-wrap" role="button" tabindex="0" aria-label="Play video: Jimmy Wu testimonial">
+                            <img src="assets/jimmy.svg" alt="Jimmy Wu Video Testimonial" class="video-thumb-img" width="360" height="200" loading="lazy" decoding="async">
+                            <div class="video-play-btn" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3.51204 2.66554C3.39453 2.8686 3.33269 3.09905 3.33276 3.33364V12.6664C3.33269 12.9009 3.39453 13.1314 3.51204 13.3345C3.62955 13.5375 3.79856 13.706 4.00201 13.8228C4.20547 13.9397 4.43615 14.0008 4.67079 14C4.90542 13.9992 5.13569 13.9365 5.33834 13.8183L13.3393 9.15192C13.541 9.03446 13.7083 8.86614 13.8245 8.66378C13.9407 8.46142 14.0018 8.2321 14.0016 7.99876C14.0014 7.76541 13.9399 7.53621 13.8233 7.33405C13.7068 7.13189 13.5392 6.96385 13.3373 6.84674L5.33834 2.18172C5.13569 2.06348 4.90542 2.0008 4.67079 2.00001C4.43615 1.99921 4.20547 2.06033 4.00201 2.17718C3.79856 2.29404 3.62955 2.46249 3.51204 2.66554Z" stroke="white" stroke-width="2" stroke-linecap="round"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-headline">
+                                "Initially hesitant, we were blown away when
+                                they fulfilled
+                                every single promise without missing a beat."
+                            </div>
+                            <div class="card-author">- Jimmy Wu, USA</div>
+                            <button class="btn btn-play-video" aria-label="Play video">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                    <path d="M3.07313 2.33235C2.97031 2.51002 2.9162 2.71167 2.91626 2.91694V11.0831C2.9162 11.2883 2.97031 11.49 3.07313 11.6676C3.17595 11.8453 3.32383 11.9927 3.50185 12.095C3.67987 12.1972 3.88173 12.2507 4.08703 12.25C4.29233 12.2493 4.49382 12.1945 4.67114 12.091L11.672 8.00793C11.8485 7.90515 11.9948 7.75787 12.0965 7.58081C12.1982 7.40374 12.2516 7.20309 12.2515 6.99891C12.2513 6.79474 12.1975 6.59418 12.0955 6.41729C11.9935 6.2404 11.8469 6.09337 11.6703 5.9909L4.67114 1.909C4.49382 1.80555 4.29233 1.7507 4.08703 1.75001C3.88173 1.74931 3.67987 1.80279 3.50185 1.90503C3.32383 2.00728 3.17595 2.15468 3.07313 2.33235Z" stroke="white" stroke-width="2" stroke-linecap="round"></path>
+                                </svg>
+                                Play Video
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Card 4: Google Text Review — Mr. Abdulla Noor -->
+                    <div class="testimonial-card text-card">
+                        <div class="card-stars-row tp-stars-row">
+                            <img src="assets/star.svg" alt="Star" width="14" height="14">
+                            <img src="assets/star.svg" alt="Star" width="14" height="14">
+                            <img src="assets/star.svg" alt="Star" width="14" height="14">
+                            <img src="assets/star.svg" alt="Star" width="14" height="14">
+                            <img src="assets/star.svg" alt="Star" width="14" height="14">
+                        </div>
+                        <div class="card-headline">
+                            "They said they'd deliver, and they did, exactly as promised"
+                        </div>
+                        <div class="card-body-text">
+                            "We wanted an AI-powered fitness app, smart workout plans, real-time coaching chat, the works, and we'd been burned by promises
+                            before.
+                            Developer Bazaar was different. They committed to a
+                            fixed price
+                            and a clear timeline, showed us a working demo every
+                            single week,
+                            and hit every deadline. The AI workout planning works beautifully and our
+                            users love it. These are people who do exactly what
+                            they say. If
+                            you want a team you can actually trust, I highly
+                            recommend them."
+                        </div>
+                        <div class="card-footer-row">
+                            <div class="user-info">
+                                <img src="assets/noor.svg" alt="Mr. Abdulla Noor" class="user-avatar-img" width="44" height="44" loading="lazy" decoding="async">
+                                <div class="user-meta">
+                                    <span class="user-name">Mr. Abdulla
+                                        Noor</span>
+                                    <span class="user-country">Saudi
+                                        Arabia</span>
+                                </div>
+                            </div>
+                            <div class="source-brand google-brand-tag">
+                                <img src="assets/googleLogo.svg" alt="Google" width="70" height="70">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5: Video Card — Matthew Humphreys -->
+                    <div class="testimonial-card video-card">
+                        <div class="video-thumb-wrap" role="button" tabindex="0" aria-label="Play video: Matthew Humphreys testimonial">
+                            <img src="assets/matthew.svg" alt="Matthew Humphreys Video Testimonial" class="video-thumb-img" width="360" height="200" loading="lazy" decoding="async">
+                            <div class="video-play-btn" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M3.51204 2.66554C3.39453 2.8686 3.33269 3.09905 3.33276 3.33364V12.6664C3.33269 12.9009 3.39453 13.1314 3.51204 13.3345C3.62955 13.5375 3.79856 13.706 4.00201 13.8228C4.20547 13.9397 4.43615 14.0008 4.67079 14C4.90542 13.9992 5.13569 13.9365 5.33834 13.8183L13.3393 9.15192C13.541 9.03446 13.7083 8.86614 13.8245 8.66378C13.9407 8.46142 14.0018 8.2321 14.0016 7.99876C14.0014 7.76541 13.9399 7.53621 13.8233 7.33405C13.7068 7.13189 13.5392 6.96385 13.3373 6.84674L5.33834 2.18172C5.13569 2.06348 4.90542 2.0008 4.67079 2.00001C4.43615 1.99921 4.20547 2.06033 4.00201 2.17718C3.79856 2.29404 3.62955 2.46249 3.51204 2.66554Z" stroke="white" stroke-width="2" stroke-linecap="round"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-headline">
+                                "Developer Bazaar delivered exceptional results
+                                right on
+                                schedule with stellar communication and highly
+                                skilled,
+                                dedicated developers"
+                            </div>
+                            <div class="card-author">- Matthew Humphreys, United
+                                Kingdom</div>
+                            <button class="btn btn-play-video" aria-label="Play video">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                    <path d="M3.07313 2.33235C2.97031 2.51002 2.9162 2.71167 2.91626 2.91694V11.0831C2.9162 11.2883 2.97031 11.49 3.07313 11.6676C3.17595 11.8453 3.32383 11.9927 3.50185 12.095C3.67987 12.1972 3.88173 12.2507 4.08703 12.25C4.29233 12.2493 4.49382 12.1945 4.67114 12.091L11.672 8.00793C11.8485 7.90515 11.9948 7.75787 12.0965 7.58081C12.1982 7.40374 12.2516 7.20309 12.2515 6.99891C12.2513 6.79474 12.1975 6.59418 12.0955 6.41729C11.9935 6.2404 11.8469 6.09337 11.6703 5.9909L4.67114 1.909C4.49382 1.80555 4.29233 1.7507 4.08703 1.75001C3.88173 1.74931 3.67987 1.80279 3.50185 1.90503C3.32383 2.00728 3.17595 2.15468 3.07313 2.33235Z" stroke="white" stroke-width="2" stroke-linecap="round"></path>
+                                </svg>
+                                Play Video
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Card 6: Trustpilot Text Review — Kemah Travers -->
+                    <div class="testimonial-card text-card">
+                        <div class="card-stars-row tp-stars-row">
+                            <img src="assets/star.svg" alt="Star" width="14" height="14">
+                            <img src="assets/star.svg" alt="Star" width="14" height="14">
+                            <img src="assets/star.svg" alt="Star" width="14" height="14">
+                            <img src="assets/star.svg" alt="Star" width="14" height="14">
+                            <img src="assets/star.svg" alt="Star" width="14" height="14">
+                        </div>
+                        <div class="card-headline">
+                            "They understood our vision and built something that truly helps"
+                        </div>
+                        <div class="card-body-text">
+                            "We came to Developer Bazaar with a heartfelt idea:
+                            a fitness app giving an underserved community a safe, welcoming space to train. They really listened, built an interface
+                            that's simple
+                            and comfortable to use, and added forums and support
+                            groups so
+                            people feel they belong before they even start
+                            chatting. Always
+                            open to feedback and adjusting to real user needs.
+                            It's more than a fitness app now, it's a space for support and community. Highly
+                            recommend them."
+                        </div>
+                        <div class="card-footer-row">
+                            <div class="user-info">
+                                <img src="assets/kemah.svg" alt="Kemah Travers" class="user-avatar-img" width="44" height="44" loading="lazy" decoding="async">
+                                <div class="user-meta">
+                                    <span class="user-name">Kemah Travers</span>
+                                    <span class="user-country">USA</span>
+                                </div>
+                            </div>
+                            <div class="source-brand google-brand-tag">
+                                <img src="assets/trustPilot.svg" alt="Trustpilot" width="80" height="80">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comparison Table Section ("Anyone Can Build a Fitness App...") -->
+        <section class="comparison-section" id="comparison">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header text-center">
+                    <div class="section-title">
+                        Anyone Can Build a Fitness App.
+                        <span class="title-highlight">Not Everyone Can Build
+                            Yours.</span>
+                    </div>
+                    <div class="section-subtitle">
+                        Building a fitness app is nothing like building a website. Here's
+                        what you get with a team that does only this, and does
+                        it right.
+                    </div>
+                </div>
+
+                <!-- Comparison Table Wrapper -->
+                <div class="comparison-table-wrapper">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th class="col-feature"></th>
+                                <th class="col-dbt">
+                                    <div class="dbt-header-badge">DBT (Us)</div>
+                                </th>
+                                <th class="col-other">Traditional Agency</th>
+                                <th class="col-other">Product Company</th>
+                                <th class="col-other">Freelancer</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="feature-label">Fitness-App Focus</td>
+                                <td class="dbt-cell highlight-text">
+                                    Fitness apps only. Nothing else.
+                                </td>
+                                <td class="other-cell">Builds any app. Learns on
+                                    you.</td>
+                                <td class="other-cell">
+                                    One fixed product. Your idea bends to it.
+                                </td>
+                                <td class="other-cell">Rarely built fitness before.</td>
+                            </tr>
+                            <tr>
+                                <td class="feature-label">Pricing</td>
+                                <td class="dbt-cell highlight-text">
+                                    One fixed price. Locked upfront.
+                                </td>
+                                <td class="other-cell">Vague quote. Grows
+                                    later.</td>
+                                <td class="other-cell">Locked packages. Paid
+                                    add-ons.</td>
+                                <td class="other-cell">Cheap now. Costly
+                                    surprises later.</td>
+                            </tr>
+                            <tr>
+                                <td class="feature-label">Ownership (Your
+                                    IP)</td>
+                                <td class="dbt-cell highlight-text">
+                                    You own 100% of the code and IP.
+                                </td>
+                                <td class="other-cell">Often keeps the
+                                    code.</td>
+                                <td class="other-cell">You rent their
+                                    platform.</td>
+                                <td class="other-cell">Handover a gamble.</td>
+                            </tr>
+                            <tr>
+                                <td class="feature-label">Speed &amp;
+                                    Visibility</td>
+                                <td class="dbt-cell highlight-text">
+                                    A live demo you test every week.
+                                </td>
+                                <td class="other-cell">Silence. You chase
+                                    updates.</td>
+                                <td class="other-cell">A dashboard, not a
+                                    partner.</td>
+                                <td class="other-cell">Goes quiet
+                                    mid-project.</td>
+                            </tr>
+                            <tr>
+                                <td class="feature-label">Speed to Market</td>
+                                <td class="dbt-cell highlight-text">
+                                    Live in 12 weeks. Guaranteed timeline.
+                                </td>
+                                <td class="other-cell">Slow cycles. Long
+                                    waits.</td>
+                                <td class="other-cell">Fast, but only their
+                                    way.</td>
+                                <td class="other-cell">Depends on their free
+                                    time.</td>
+                            </tr>
+                            <tr>
+                                <td class="feature-label">Architecture</td>
+                                <td class="dbt-cell highlight-text">
+                                    Built to scale to 100,000+ users.
+                                </td>
+                                <td class="other-cell">Built for today. Breaks
+                                    tomorrow.</td>
+                                <td class="other-cell">Rigid. Hard to
+                                    customize.</td>
+                                <td class="other-cell">Quick fixes. No real
+                                    structure.</td>
+                            </tr>
+                            <tr>
+                                <td class="feature-label">Team</td>
+                                <td class="dbt-cell highlight-text">
+                                    Same dedicated team, start to finish.
+                                </td>
+                                <td class="other-cell">Rotates every few
+                                    weeks.</td>
+                                <td class="other-cell">Assigned, not
+                                    invested.</td>
+                                <td class="other-cell">One person. One
+                                    risk.</td>
+                            </tr>
+                            <tr>
+                                <td class="feature-label">Quality</td>
+                                <td class="dbt-cell highlight-text">
+                                    Tested, proven, fitness-app grade.
+                                </td>
+                                <td class="other-cell">Inconsistent. No
+                                    standard.</td>
+                                <td class="other-cell">Standard, but
+                                    generic.</td>
+                                <td class="other-cell">Varies wildly.</td>
+                            </tr>
+                            <tr>
+                                <td class="feature-label">After Launch</td>
+                                <td class="dbt-cell highlight-text">
+                                    3 months free maintenance. We stay.
+                                </td>
+                                <td class="other-cell">Disappears at
+                                    launch.</td>
+                                <td class="other-cell">Support tied to a
+                                    subscription.</td>
+                                <td class="other-cell">Unreachable once
+                                    paid.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Comparison Footer Callout & CTA Button -->
+                <div class="comparison-footer text-center">
+                    <div class="comparison-stats-text">
+                        50+ fitness apps shipped across 15+ countries. 3 went on
+                        to raise
+                        funding.
+                    </div>
+                    <a href="#quote-form" class="btn btn-comparison-cta open-calendly-popup">
+                        Book a Free 29-Min Call
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                            <path d="M0.999094 15.4963L15.1412 1.35412M4.18107 1.00057C6.8396 2.04063 9.73418 2.32428 12.544 1.8201L15.1412 1.35412L14.6752 3.95132C14.1711 6.76117 14.4547 9.65575 15.4948 12.3143" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Everything Your Fitness App Needs — Feature Cards Carousel -->
+        <section class="feat-cards-section" id="what-we-build" aria-label="Fitness app features we build">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-title">
+                        Everything Your Fitness App Needs,
+                        <span class="title-highlight">Built Under One
+                            Roof</span>
+                    </div>
+                    <div class="section-subtitle">
+                        Every feature your users love and every safeguard your
+                        business
+                        needs,<br>
+                        from MVP to scale.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Full-width scrollable track (no container clip) -->
+            <div class="feat-carousel-outer">
+                <div class="feat-carousel-track" id="featCarousel" role="list">
+                    <!-- 1. Core App Development -->
+                    <article class="feat-card" role="listitem">
+                        <div class="feat-card-header">
+                            <span class="feat-card-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M16.0011 18L22.0016 12L16.0011 6M8.00048 6L2 12L8.00048 18" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                </svg>
+                            </span>
+                            <div class="feat-card-title">Core App
+                                Development</div>
+                        </div>
+                        <hr class="feat-card-divider">
+                        <ul class="feat-card-list">
+                            <li>Custom fitness app development (iOS, Android, web)</li>
+                            <li>MVP development for fast, low-risk launch</li>
+                            <li>Fitness app UI/UX design</li>
+                            <li>
+                                Niche &amp; community fitness apps (yoga, running, strength training, senior fitness, wellness, accessible/inclusive)
+                            </li>
+                            <li>White-label &amp; customizable fitness solutions</li>
+                            <li>Cross-platform development (Flutter, React
+                                Native)</li>
+                        </ul>
+                        <a href="#quote-form" class="btn-outline feat-card-btn open-calendly-popup">Talk
+                            to a Specialist
+                            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M0.928781 15.0715L15.0709 0.929315M4.11076 0.575762C6.76928 1.61582 9.66386 1.89948 12.4737 1.3953L15.0709 0.929315L14.6049 3.52652C14.1008 6.33637 14.3844 9.23095 15.4245 11.8895" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></a>
+                    </article>
+
+                    <!-- 2. Workouts &amp; Discovery -->
+                    <article class="feat-card" role="listitem">
+                        <div class="feat-card-header">
+                            <span class="feat-card-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12.0008 22.0006C17.5241 22.0006 22.0016 17.5231 22.0016 11.9998C22.0016 6.47653 17.5241 1.99902 12.0008 1.99902C6.47751 1.99902 2 6.47653 2 11.9998C2 17.5231 6.47751 22.0006 12.0008 22.0006Z" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></polygon>
+                                </svg>
+                            </span>
+                            <div class="feat-card-title">Workouts &amp; Discovery</div>
+                        </div>
+                        <hr class="feat-card-divider">
+                        <ul class="feat-card-list">
+                            <li>AI-powered smart workout plan algorithms</li>
+                            <li>Goal &amp; behavior-based recommendations</li>
+                            <li>Location-based features (GPS run tracking, nearby gyms &amp; classes)</li>
+                            <li>Workout library, discovery, and browse experiences</li>
+                            <li>Fitness level &amp; goal scoring</li>
+                        </ul>
+                        <a href="#quote-form" class="btn-outline feat-card-btn open-calendly-popup">Talk
+                            to a Specialist
+                            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M0.928781 15.0715L15.0709 0.929315M4.11076 0.575762C6.76928 1.61582 9.66386 1.89948 12.4737 1.3953L15.0709 0.929315L14.6049 3.52652C14.1008 6.33637 14.3844 9.23095 15.4245 11.8895" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></a>
+                    </article>
+
+                    <!-- 3. AI Features -->
+                    <article class="feat-card" role="listitem">
+                        <div class="feat-card-header">
+                            <span class="feat-card-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M20 2.00098V6.00082M22.0001 4.0009H17.9998M11.0162 2.81539C11.0591 2.586 11.1808 2.37882 11.3603 2.22973C11.5399 2.08064 11.7659 1.99902 11.9993 1.99902C12.2327 1.99902 12.4587 2.08064 12.6382 2.22973C12.8178 2.37882 12.9395 2.586 12.9824 2.81539L14.0335 8.37317C14.1081 8.7683 14.3002 9.13175 14.5845 9.4161C14.8689 9.70044 15.2324 9.89246 15.6276 9.9671L21.186 11.0181C21.4154 11.0609 21.6227 11.1826 21.7718 11.3621C21.9209 11.5417 22.0025 11.7677 22.0025 12.001C22.0025 12.2344 21.9209 12.4604 21.7718 12.6399C21.6227 12.8194 21.4154 12.9411 21.186 12.984L15.6276 14.0349C15.2324 14.1096 14.8689 14.3016 14.5845 14.586C14.3002 14.8703 14.1081 15.2337 14.0335 15.6289L12.9824 21.1867C12.9395 21.416 12.8178 21.6232 12.6382 21.7723C12.4587 21.9214 12.2327 22.003 11.9993 22.003C11.7659 22.003 11.5399 21.9214 11.3603 21.7723C11.1808 21.6232 11.0591 21.416 11.0162 21.1867L9.96513 15.6289C9.89048 15.2337 9.69843 14.8703 9.41406 14.586C9.12968 14.3016 8.76618 14.1096 8.371 14.0349L2.81255 12.984C2.58314 12.9411 2.37593 12.8194 2.22683 12.6399C2.07772 12.4604 1.99609 12.2344 1.99609 12.001C1.99609 11.7677 2.07772 11.5417 2.22683 11.3621C2.37593 11.1826 2.58314 11.0609 2.81255 11.0181L8.371 9.9671C8.76618 9.89246 9.12968 9.70044 9.41406 9.4161C9.69843 9.13175 9.89048 8.7683 9.96513 8.37317L11.0162 2.81539ZM5.99886 20.0003C5.99886 21.1048 5.10335 22.0002 3.9987 22.0002C2.89404 22.0002 1.99854 21.1048 1.99854 20.0003C1.99854 18.8957 2.89404 18.0003 3.9987 18.0003C5.10335 18.0003 5.99886 18.8957 5.99886 20.0003Z" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                </svg>
+                            </span>
+                            <div class="feat-card-title">AI Features</div>
+                        </div>
+                        <hr class="feat-card-divider">
+                        <ul class="feat-card-list">
+                            <li>AI personal trainer (suggests the best workouts)</li>
+                            <li>AI chat coach &amp; motivation suggestions</li>
+                            <li>AI-powered training &amp; nutrition tips</li>
+                            <li>
+                                AI content moderation (flags inappropriate community text &amp; images)
+                            </li>
+                            <li>AI fake-profile &amp; bot detection</li>
+                            <li>AI-based form check &amp; pose detection</li>
+                            <li>Smart notifications &amp; re-engagement powered
+                                by AI</li>
+                        </ul>
+                        <a href="#quote-form" class="btn-outline feat-card-btn open-calendly-popup">Talk
+                            to a Specialist
+                            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M0.928781 15.0715L15.0709 0.929315M4.11076 0.575762C6.76928 1.61582 9.66386 1.89948 12.4737 1.3953L15.0709 0.929315L14.6049 3.52652C14.1008 6.33637 14.3844 9.23095 15.4245 11.8895" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></a>
+                    </article>
+
+                    <!-- 4. Communication -->
+                    <article class="feat-card" role="listitem">
+                        <div class="feat-card-header">
+                            <span class="feat-card-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M21.4158 18.4143C21.7909 18.0392 22.0016 17.5305 22.0016 17.0001V5.00001C22.0016 4.46957 21.7909 3.96086 21.4158 3.58579C21.0407 3.21071 20.5319 3 20.0014 3H4.00016C3.46968 3 2.96094 3.21071 2.58583 3.58579C2.21073 3.96086 2 4.46957 2 5.00001V21.2861C2.00002 21.4265 2.04167 21.5638 2.1197 21.6805C2.19772 21.7972 2.30861 21.8882 2.43834 21.942C2.56808 21.9957 2.71083 22.0098 2.84856 21.9824C2.98628 21.955 3.11279 21.8874 3.2121 21.7881L5.41427 19.5861C5.78929 19.211 6.29795 19.0002 6.82839 19.0001H20.0014C20.5319 19.0001 21.0407 18.7894 21.4158 18.4143Z" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                </svg>
+                            </span>
+                            <div class="feat-card-title">Communication</div>
+                        </div>
+                        <hr class="feat-card-divider">
+                        <ul class="feat-card-list">
+                            <li>Real-time chat &amp; messaging</li>
+                            <li>Audio &amp; video calling (live coaching)</li>
+                            <li>Voice notes and media sharing</li>
+                            <li>Live streaming / virtual classes</li>
+                            <li>Push notifications</li>
+                        </ul>
+                        <a href="#quote-form" class="btn-outline feat-card-btn open-calendly-popup">Talk
+                            to a Specialist
+                            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M0.928781 15.0715L15.0709 0.929315M4.11076 0.575762C6.76928 1.61582 9.66386 1.89948 12.4737 1.3953L15.0709 0.929315L14.6049 3.52652C14.1008 6.33637 14.3844 9.23095 15.4245 11.8895" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></a>
+                    </article>
+
+                    <!-- 5. Trust, Safety & Verification -->
+                    <article class="feat-card" role="listitem">
+                        <div class="feat-card-header">
+                            <span class="feat-card-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M8.9995 11.9993L10.9993 13.9994L14.9989 9.99928M19.9984 12.9998C19.9984 18 16.4987 20.5001 12.3392 21.9501C12.1214 22.0239 11.8847 22.0204 11.6692 21.9401C7.49965 20.5001 4 18 4 12.9998V5.9996C4 5.73438 4.10535 5.48002 4.29286 5.29247C4.48038 5.10493 4.73471 4.99957 4.9999 4.99957C6.9997 4.99957 9.49945 3.79953 11.2393 2.27948C11.4511 2.09847 11.7206 1.99902 11.9992 1.99902C12.2778 1.99902 12.5473 2.09847 12.7591 2.27948C14.5089 3.80953 16.9987 4.99957 18.9985 4.99957C19.2637 4.99957 19.518 5.10493 19.7055 5.29247C19.8931 5.48002 19.9984 5.73438 19.9984 5.9996V12.9998Z" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                </svg>
+                            </span>
+                            <div class="feat-card-title">
+                                Trust, Safety &amp; Verification
+                            </div>
+                        </div>
+                        <hr class="feat-card-divider">
+                        <ul class="feat-card-list">
+                            <li>Coach &amp; profile verification</li>
+                            <li>Age verification &amp; health-data compliance</li>
+                            <li>Bot &amp; fraud detection</li>
+                            <li>Reporting &amp; blocking tools</li>
+                            <li>Content moderation dashboard</li>
+                            <li>Privacy &amp; data protection (GDPR-ready)</li>
+                        </ul>
+                        <a href="#quote-form" class="btn-outline feat-card-btn open-calendly-popup">Talk
+                            to a Specialist
+                            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M0.928781 15.0715L15.0709 0.929315M4.11076 0.575762C6.76928 1.61582 9.66386 1.89948 12.4737 1.3953L15.0709 0.929315L14.6049 3.52652C14.1008 6.33637 14.3844 9.23095 15.4245 11.8895" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></a>
+                    </article>
+
+                    <!-- 6. Monetization -->
+                    <article class="feat-card" role="listitem">
+                        <div class="feat-card-header">
+                            <span class="feat-card-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M12 1.99902V22.0006M17 4.99926H9.5C8.57174 4.99926 7.6815 5.36804 7.02513 6.02447C6.36875 6.6809 6 7.57121 6 8.49954C6 9.42788 6.36875 10.3182 7.02513 10.9746C7.6815 11.631 8.57174 11.9998 9.5 11.9998H14.5C15.4283 11.9998 16.3185 12.3686 16.9749 13.025C17.6313 13.6815 18 14.5718 18 15.5001C18 16.4284 17.6313 17.3187 16.9749 17.9752C16.3185 18.6316 15.4283 19.0004 14.5 19.0004H6" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                </svg>
+                            </span>
+                            <div class="feat-card-title">Monetization</div>
+                        </div>
+                        <hr class="feat-card-divider">
+                        <ul class="feat-card-list">
+                            <li>Subscriptions &amp; premium tiers</li>
+                            <li>In-app purchases (premium plans, challenges, programs)</li>
+                            <li>Ads integration</li>
+                            <li>Pay-per-feature models</li>
+                        </ul>
+                        <a href="#quote-form" class="btn-outline feat-card-btn open-calendly-popup">Talk
+                            to a Specialist
+                            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M0.928781 15.0715L15.0709 0.929315M4.11076 0.575762C6.76928 1.61582 9.66386 1.89948 12.4737 1.3953L15.0709 0.929315L14.6049 3.52652C14.1008 6.33637 14.3844 9.23095 15.4245 11.8895" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></a>
+                    </article>
+
+                    <!-- 7. Admin & Analytics -->
+                    <article class="feat-card" role="listitem">
+                        <div class="feat-card-header">
+                            <span class="feat-card-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M5 21V15M12.0008 21V3M19.0016 21V9" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                </svg>
+                            </span>
+                            <div class="feat-card-title">Admin &amp;
+                                Analytics</div>
+                        </div>
+                        <hr class="feat-card-divider">
+                        <ul class="feat-card-list">
+                            <li>Admin panel &amp; moderation dashboard</li>
+                            <li>User analytics &amp; engagement tracking</li>
+                            <li>AI-driven insights &amp; retention
+                                analytics</li>
+                            <li>A/B testing tools</li>
+                        </ul>
+                        <a href="#quote-form" class="btn-outline feat-card-btn open-calendly-popup">Talk
+                            to a Specialist
+                            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M0.928781 15.0715L15.0709 0.929315M4.11076 0.575762C6.76928 1.61582 9.66386 1.89948 12.4737 1.3953L15.0709 0.929315L14.6049 3.52652C14.1008 6.33637 14.3844 9.23095 15.4245 11.8895" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></a>
+                    </article>
+
+                    <!-- 8. Post-Launch -->
+                    <article class="feat-card" role="listitem">
+                        <div class="feat-card-header">
+                            <span class="feat-card-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>
+                                    <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path>
+                                    <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+                                    <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+                                </svg>
+                            </span>
+                            <div class="feat-card-title">Post-Launch</div>
+                        </div>
+                        <hr class="feat-card-divider">
+                        <ul class="feat-card-list">
+                            <li>App maintenance &amp; support</li>
+                            <li>Scaling &amp; performance optimization</li>
+                            <li>Feature updates &amp; new releases</li>
+                            <li>App store submission &amp; launch support</li>
+                        </ul>
+                        <a href="#quote-form" class="btn-outline feat-card-btn open-calendly-popup">Talk
+                            to a Specialist
+                            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M0.928781 15.0715L15.0709 0.929315M4.11076 0.575762C6.76928 1.61582 9.66386 1.89948 12.4737 1.3953L15.0709 0.929315L14.6049 3.52652C14.1008 6.33637 14.3844 9.23095 15.4245 11.8895" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></a>
+                    </article>
+                </div>
+                <!-- /.feat-carousel-track -->
+            </div>
+            <!-- /.feat-carousel-outer -->
+        </section>
+        <!-- /#what-we-build -->
+
+        <!-- Process Section ("How We Turn Your Idea Into a Live App...") -->
+        <section class="process-section" id="how-it-works" aria-label="Our step-by-step development process">
+            <div class="container">
+                <!-- Section Header -->
+                <div class="section-header text-center">
+                    <div class="section-title">
+                        How We Turn Your Idea Into a Live App,
+                        <span class="title-highlight">Without the
+                            Guesswork</span>
+                    </div>
+                    <div class="section-subtitle">
+                        A clear, proven process built to remove every risk that
+                        sinks most
+                        app projects.<br>
+                        Here's exactly what happens, step by step, so you always
+                        know what's
+                        next.
+                    </div>
+                </div>
+
+                <!-- 5-Step Cards Grid -->
+                <div class="process-grid">
+                    <!-- Step 1 -->
+                    <div class="process-card">
+                        <div class="process-card-header">
+                            <div class="process-step-num">1</div>
+                            <div class="process-card-title-group">
+                                <span class="process-tag">FREE 29-MIN
+                                    CALL</span>
+                                <div class="process-card-heading">
+                                    We Understand Your Vision
+                                </div>
+                            </div>
+                        </div>
+                        <div class="process-card-text">
+                            Before anything else, we listen.
+                            <strong>In a free 30-minute call we dig into your
+                                idea, your ideal
+                                users, your business goals, and the features
+                                that matter most.
+                                You're not pitched, you're understood.</strong>
+                            By the end, we both know exactly what you're trying
+                            to build and
+                            who it's for, so nothing gets lost in translation
+                            later.
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="process-card">
+                        <div class="process-card-header">
+                            <div class="process-step-num">2</div>
+                            <div class="process-card-title-group">
+                                <span class="process-tag">Plan &amp;
+                                    Design</span>
+                                <div class="process-card-heading">
+                                    We Plan It All Before We Build
+                                </div>
+                            </div>
+                        </div>
+                        <div class="process-card-text">
+                            This is where most agencies cut corners, and where
+                            projects
+                            quietly fail.
+                            <strong>Our business analysts document everything
+                                upfront: a full BRD,
+                                FRD, user stories, system design, user-flow
+                                diagrams, and
+                                technical architecture.</strong>
+                            Every feature, screen, and decision
+                            <strong>is agreed</strong> before a single line of
+                            code
+                            <strong>is written.</strong> You see the whole plan,
+                            so there are
+                            no surprises, no "we didn't think of that," and no
+                            expensive
+                            mid-build changes.
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="process-card">
+                        <div class="process-card-header">
+                            <div class="process-step-num">3</div>
+                            <div class="process-card-title-group">
+                                <span class="process-tag">FIXED PROPOSAL</span>
+                                <div class="process-card-heading">
+                                    A Clear Price, No Suprise
+                                </div>
+                            </div>
+                        </div>
+                        <p class="process-card-text">
+                            <strong>Once the features are locked, we hand you a
+                                detailed proposal
+                                and contract with one fixed price and a clear
+                                timeline.</strong>
+                            Everything you're getting, when you're getting it,
+                            and exactly
+                            what it costs, in writing. No hidden fees, no
+                            surprise invoices
+                            halfway through. You approve it before we start, so
+                            you're always
+                            in control of your budget.
+                        </p>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="process-card">
+                        <div class="process-card-header">
+                            <div class="process-step-num">4</div>
+                            <div class="process-card-title-group">
+                                <span class="process-tag">WEEKLY DEMOS</span>
+                                <div class="process-card-heading">We Built in
+                                    the Open</div>
+                            </div>
+                        </div>
+                        <p class="process-card-text">
+                            <strong>After a kickoff meeting, you get a full
+                                weekly and monthly plan
+                                with clear ETAs, so you always know where your
+                                project
+                                stands.</strong>
+                            We design, develop, and test in short cycles, and
+                            every week you
+                            see a working demo you can test yourself. Your
+                            feedback shapes the
+                            product at every step, so what launches is the app
+                            you imagined,
+                            not a guess. No black box. No ghosting. No
+                            "surprise" at the end.
+                        </p>
+                    </div>
+
+                    <!-- Step 5 (Full Width Row) -->
+                    <div class="process-card process-card-full">
+                        <div class="process-card-header">
+                            <div class="process-step-num">5</div>
+                            <div class="process-card-title-group">
+                                <span class="process-tag">LAUNCH &amp; 3-MONTHS
+                                    SUPPORT</span>
+                                <div class="process-card-heading">We Launch You,
+                                    Then Stay</div>
+                            </div>
+                        </div>
+                        <div class="process-card-text">
+                            When your app is ready, we handle deployment and get
+                            you
+                            market-ready. And
+                            <strong>we don't disappear on launch day, when the
+                                real questions
+                                start. You get 3 months of free support and
+                                maintenance, plus
+                                100% ownership of your source code and
+                                IP.</strong>
+                            Your app is stable, it's growing, and it's
+                            completely yours.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section Footer Callout & CTA Button -->
+                <div class="process-footer text-center">
+                    <div class="process-footer-title">
+                        Start with the free 29-minute call. Walk away with a
+                        plan, whether
+                        you build with us or not.
+                    </div>
+                    <a href="#quote-form" class="btn btn-primary-cta process-cta-btn open-calendly-popup">
+                        Talk to a Specialist, Not a Salesperson
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M0.928781 15.0715L15.0709 0.929315M4.11076 0.575762C6.76928 1.61582 9.66386 1.89948 12.4737 1.3953L15.0709 0.929315L14.6049 3.52652C14.1008 6.33637 14.3844 9.23095 15.4245 11.8895" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- 100% Money Back Guarantee Banner Image -->
+                <div class="guarantee-card-wrap">
+                    <img src="assets/guaranteeCard.svg" alt="100% Money Back Guarantee - We Guarantee A Working App You Love, Or Your Money Back" class="guarantee-card-img" loading="lazy" decoding="async">
+                </div>
+            </div>
+        </section>
+        <!-- /.process-section -->
+
+        <!-- FAQ Section ("Questions Founders Ask Before They Start") -->
+        <section class="faq-section" id="faq" aria-label="Frequently Asked Questions">
+            <div class="container">
+                <div class="faq-grid">
+                    <!-- Left Column: Title & Sidebar Specialist Card -->
+                    <div class="faq-left-col">
+                        <div class="faq-main-title">
+                            Questions Founders Ask Before They Start
+                        </div>
+                        <div class="faq-subtitle">
+                            Everything you want to know about cost, ownership,
+                            timelines, and
+                            how we work, answered straight.
+                        </div>
+
+                        <!-- Specialist Consultation Card -->
+                        <div class="faq-card">
+                            <div class="specialist-profile">
+                                <img src="assets/arpitvimg.svg" alt="Arpit Vaishnav - Fitness Product Specialist" class="specialist-avatar" width="44" height="44" loading="lazy" decoding="async">
+                                <div class="specialist-info">
+                                    <div class="specialist-name">Arpit
+                                        Vaishnav</div>
+                                    <div class="specialist-role">Fitness product specialist</div>
+                                </div>
+                            </div>
+                            <div class="faq-card-heading">
+                                Have questions about your fitness app idea?
+                            </div>
+                            <p class="faq-card-desc">
+                                Book a free 29-minute consultation with our fitness app specialist and get clarity on features, cost,
+                                timeline, and the
+                                best way to launch.
+                            </p>
+                            <a href="#quote-form" class="faq-card-btn open-calendly-popup">
+                                Book a free 29 - Min Call
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M0.928781 15.0715L15.0709 0.929315M4.11076 0.575762C6.76928 1.61582 9.66386 1.89948 12.4737 1.3953L15.0709 0.929315L14.6049 3.52652C14.1008 6.33637 14.3844 9.23095 15.4245 11.8895" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Accordion List -->
+                    <div class="faq-accordion-list" role="region" aria-label="FAQ Accordion">
+                        <!-- Item 1 (Default Open) -->
+                        <div class="faq-item">
+                            <button class="faq-question-btn" aria-expanded="true" onclick="toggleFaq(this)">
+                                <span class="faq-question-text">How much does it cost to build a fitness app?</span>
+                                <span class="faq-icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="faq-answer-wrapper">
+                                <div class="faq-answer-inner">
+                                    <div class="faq-answer-panel">
+                                        <p>
+                                            Our MVPs start at $10,000, and the
+                                            final price depends on
+                                            your specific features and business
+                                            requirements. After a
+                                            quick call to understand what you
+                                            need, we give you one
+                                            fixed price in writing, no vague
+                                            ranges, no surprise
+                                            invoices. You'll know exactly what
+                                            you're paying before we
+                                            write a single line of code.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div class="faq-item">
+                            <button class="faq-question-btn" aria-expanded="false" onclick="toggleFaq(this)">
+                                <span class="faq-question-text">How does payment
+                                    work?</span>
+                                <span class="faq-icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="faq-answer-wrapper">
+                                <div class="faq-answer-inner">
+                                    <div class="faq-answer-panel">
+                                        <p>
+                                            You pay in milestones, never
+                                            everything upfront. Each
+                                            milestone is tied to work you can
+                                            see and approve, so
+                                            you're only ever paying for progress
+                                            that's already in
+                                            front of you. It keeps your risk low
+                                            and keeps us
+                                            accountable at every stage.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div class="faq-item">
+                            <button class="faq-question-btn" aria-expanded="false" onclick="toggleFaq(this)">
+                                <span class="faq-question-text">What if the cost
+                                    goes up halfway through?</span>
+                                <span class="faq-icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="faq-answer-wrapper">
+                                <div class="faq-answer-inner">
+                                    <div class="faq-answer-panel">
+                                        <p>
+                                            It won't. We lock the full scope and
+                                            price in the contract
+                                            before development starts. If you
+                                            later choose to add
+                                            something that wasn't in the
+                                            original plan, we quote it
+                                            separately and you decide, nothing
+                                            is ever added to your
+                                            bill without your approval.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 4 -->
+                        <div class="faq-item">
+                            <button class="faq-question-btn" aria-expanded="false" onclick="toggleFaq(this)">
+                                <span class="faq-question-text">Do you offer any
+                                    guarantee?</span>
+                                <span class="faq-icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="faq-answer-wrapper">
+                                <div class="faq-answer-inner">
+                                    <div class="faq-answer-panel">
+                                        <p>
+                                            Yes. We back our work with a
+                                            money-back guarantee as
+                                            agreed in your contract, plus 3
+                                            months of free support
+                                            after launch. Combined with fixed
+                                            pricing and weekly
+                                            demos, our whole process is built so
+                                            you never reach the
+                                            end wondering what you paid for.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 5 -->
+                        <div class="faq-item">
+                            <button class="faq-question-btn" aria-expanded="false" onclick="toggleFaq(this)">
+                                <span class="faq-question-text">Is my idea safe?
+                                    Will you sign an NDA?</span>
+                                <span class="faq-icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="faq-answer-wrapper">
+                                <div class="faq-answer-inner">
+                                    <div class="faq-answer-panel">
+                                        <p>
+                                            Absolutely. We sign an NDA before
+                                            any detailed discussion,
+                                            so your idea is legally protected
+                                            from the very first
+                                            conversation. Your concept is yours,
+                                            always, and so is the
+                                            finished product.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 6 -->
+                        <div class="faq-item">
+                            <button class="faq-question-btn" aria-expanded="false" onclick="toggleFaq(this)">
+                                <span class="faq-question-text">Can you add AI to my fitness app?</span>
+                                <span class="faq-icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="faq-answer-wrapper">
+                                <div class="faq-answer-inner">
+                                    <div class="faq-answer-panel">
+                                        <p>
+                                            Yes, and it's one of the things that sets a modern fitness app apart. We build AI-powered personalized workout plans, AI coaching and chat assistance, AI form detection, and AI content moderation. These features help your users reach their goals faster and keep your platform safe, which is exactly what
+                                            keeps people coming
+                                            back.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 7 -->
+                        <div class="faq-item">
+                            <button class="faq-question-btn" aria-expanded="false" onclick="toggleFaq(this)">
+                                <span class="faq-question-text">How do you
+                                    ensure a smooth App Store launch without
+                                    rejections?</span>
+                                <span class="faq-icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="faq-answer-wrapper">
+                                <div class="faq-answer-inner">
+                                    <div class="faq-answer-panel">
+                                        <p>
+                                            Experience. We've published many
+                                            apps to both the Apple
+                                            App Store and Google Play, so we
+                                            know their guidelines
+                                            inside out, privacy rules, content
+                                            and safety
+                                            requirements, and the technical
+                                            checks that trip most
+                                            teams up. We prepare your app to
+                                            meet them before
+                                            submission, so you avoid the
+                                            rejections and delays that
+                                            cost first-timers weeks.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 8 -->
+                        <div class="faq-item">
+                            <button class="faq-question-btn" aria-expanded="false" onclick="toggleFaq(this)">
+                                <span class="faq-question-text">I already have
+                                    an app. Can you maintain it or make it more
+                                    scalable?</span>
+                                <span class="faq-icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="faq-answer-wrapper">
+                                <div class="faq-answer-inner">
+                                    <div class="faq-answer-panel">
+                                        <p>
+                                            Yes. We take on existing apps all
+                                            the time, whether you
+                                            need ongoing maintenance, better
+                                            performance, or an
+                                            architecture that can handle serious
+                                            growth. We start by
+                                            reviewing your current codebase,
+                                            tell you honestly what's
+                                            working and what isn't, and give you
+                                            a clear plan to
+                                            stabilize and scale it.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 9 -->
+                        <div class="faq-item">
+                            <button class="faq-question-btn" aria-expanded="false" onclick="toggleFaq(this)">
+                                <span class="faq-question-text">My previous
+                                    developer left me with a broken app. Can you
+                                    rescue it?</span>
+                                <span class="faq-icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="faq-answer-wrapper">
+                                <div class="faq-answer-inner">
+                                    <div class="faq-answer-panel">
+                                        <p>
+                                            This is one of the most common
+                                            reasons founders come to
+                                            us. We rebuild and rescue stalled or broken fitness apps,
+                                            often ones abandoned or poorly built
+                                            by another agency. We
+                                            audit what you have, salvage what's
+                                            usable, and relaunch
+                                            it properly, on a fixed price, with
+                                            weekly demos so you
+                                            can finally see real progress and
+                                            full ownership handed
+                                            back to you.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 10 -->
+                        <div class="faq-item">
+                            <button class="faq-question-btn" aria-expanded="false" onclick="toggleFaq(this)">
+                                <span class="faq-question-text">Is the app
+                                    compliant with data and privacy laws?</span>
+                                <span class="faq-icon" aria-hidden="true">+</span>
+                            </button>
+                            <div class="faq-answer-wrapper">
+                                <div class="faq-answer-inner">
+                                    <div class="faq-answer-panel">
+                                        <p>
+                                            Yes. We build to major standards
+                                            like GDPR and follow all
+                                            app-store privacy requirements, with
+                                            secure data handling
+                                            and encryption built in. For fitness apps specifically, we also handle health-data consent, age verification and the safety features that regulators and users expect, so
+                                            you're protected from
+                                            day one.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.faq-accordion-list -->
+                </div>
+                <!-- /.faq-grid -->
+            </div>
+            <!-- /.container -->
+        </section>
+
+        <!-- Commitment & Free Quote Section ("When We Say Yes to You, We Mean It") -->
+        <section class="cta-commitment-section" id="commitment-section" aria-label="Commitment &amp; Free App Quote">
+            <div class="container">
+                <div class="cta-commitment-grid">
+                    <!-- Left Column: Commitment Details & Social Proof -->
+                    <div class="cta-commitment-left">
+                        <!-- Ambient Radial Glow Circle -->
+                        <div class="cta-glow-circle" aria-hidden="true"></div>
+
+                        <div class="cta-commitment-title">
+                            When We Say Yes to You,<br>We Mean It
+                        </div>
+
+                        <div class="cta-commitment-subtitle">
+                            We Only Take On a Handful of Builds at a Time
+                        </div>
+
+                        <div class="cta-commitment-desc">
+                            We only take on a few builds at a time so no founder
+                            ever feels
+                            like a ticket number. That focus is why our clients
+                            see progress
+                            every single week, and it's why our slots go fast.
+                            Grab your call
+                            while there's still room this month.
+                        </div>
+
+                        <a href="#bottomLeadForm" class="cta-commit-btn open-calendly-popup">
+                            Secure My Place Free 29 Min Call
+                            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                    <path d="M1.00007 15.4959L15.1422 1.35381M4.18205 1.00026C6.84057 2.04032 9.73515 2.32398 12.545 1.8198L15.1422 1.35381L14.6762 3.95102C14.172 6.76087 14.4557 9.65545 15.4958 12.314" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                            </span>
+                        </a>
+
+                        <!-- Recognized By Box -->
+                        <div class="recognized-box-wrap">
+                            <div class="recognized-box-title">Recognized
+                                By</div>
+                            <div class="recognized-logos-inner">
+                                <!-- Forbes -->
+                                <div class="rec-logo-item" aria-label="Forbes">
+                                    <img src="assets/forbers.svg" alt="Forbes" class="rec-brand-img logo-forbes" loading="lazy" decoding="async">
+                                </div>
+                                <!-- The New York Times -->
+                                <div class="rec-logo-item" aria-label="The New York Times">
+                                    <img src="assets/newYork.svg" alt="The New York Times" class="rec-brand-img logo-nyt" loading="lazy" decoding="async">
+                                </div>
+                                <!-- Google News -->
+                                <div class="rec-logo-item" aria-label="Google News">
+                                    <img src="assets/googleNews.svg" alt="Google News" class="rec-brand-img logo-gnews" loading="lazy" decoding="async">
+                                </div>
+                                <!-- yahoo! news -->
+                                <div class="rec-logo-item" aria-label="yahoo! news">
+                                    <img src="assets/yahoo.svg" alt="yahoo! news" class="rec-brand-img logo-yahoo" loading="lazy" decoding="async">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Stats Row -->
+                        <div class="cta-stats-row">
+                            <div class="cta-stat-item">
+                                <div class="cta-stat-val">98%</div>
+                                <div class="cta-stat-lbl">Client
+                                    Satisfaction</div>
+                            </div>
+                            <div class="cta-stat-divider" aria-hidden="true"></div>
+                            <div class="cta-stat-item">
+                                <div class="cta-stat-val">150+</div>
+                                <div class="cta-stat-lbl">Apps Launched</div>
+                            </div>
+                            <div class="cta-stat-divider" aria-hidden="true"></div>
+                            <div class="cta-stat-item">
+                                <div class="cta-stat-val">
+                                    4.9<span class="star-icon">★</span>
+                                </div>
+                                <div class="cta-stat-lbl">Average Rating</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Form Card -->
+                    <div class="cta-commitment-right">
+                        <div class="form-card-wrapper">
+                            <div class="form-card">
+                                <div class="form-header-title">
+                                    Get My Free App Plan &amp; Quote
+                                </div>
+                                <div class="form-header-sub">What you get on the
+                                    call:</div>
+
+                                <ul class="form-checklist">
+                                    <li class="checklist-item">
+                                        <span class="check-icon-circle">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                <path d="M9.9992 3L4.49975 8.4996L2 5.99978" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="card-text">Your exact price
+                                            and launch date, upfront, no
+                                            guessing</span>
+                                    </li>
+                                    <li class="checklist-item">
+                                        <span class="check-icon-circle">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                <path d="M9.9992 3L4.49975 8.4996L2 5.99978" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="card-text">A clear plan of
+                                            what to build first, and what to
+                                            skip</span>
+                                    </li>
+                                    <li class="checklist-item">
+                                        <span class="check-icon-circle">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                <path d="M9.9992 3L4.49975 8.4996L2 5.99978" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="card-text">A roadmap you
+                                            keep, even if you don't hire
+                                            us</span>
+                                    </li>
+                                </ul>
+
+                                <form class="quote-form db-google-form" id="bottomLeadForm" action="#" method="POST">
+                                    <!-- Honeypot -->
+                                    <div aria-hidden="true" style="
+                      position: absolute !important;
+                      left: -9999px !important;
+                      width: 1px !important;
+                      height: 1px !important;
+                      overflow: hidden !important;
+                    ">
+                                        <label>Website</label>
+                                        <input type="text" name="website" tabindex="-1" autocomplete="off">
+                                    </div>
+
+                                    <!-- Hidden Metadata -->
+                                    <input type="hidden" name="form_name" value="Hero Form">
+                                    <input type="hidden" name="page_url" value="">
+                                    <input type="hidden" name="page_title" value="">
+
+                                    <div class="form-field-wrap">
+                                        <input type="text" id="bottomFullName" name="name" class="form-input" placeholder="Full Name*" autocomplete="name" autocapitalize="words" minlength="2" maxlength="80" required="">
+                                    </div>
+
+                                    <div class="form-field-wrap">
+                                        <input type="text" id="bottomWorkEmail" name="email" class="form-input" placeholder="Email*" required="">
+                                    </div>
+
+                                    <div class="phone-input-row">
+                                        <div class="country-code-wrap">
+                                            <select id="bottomCountryCode" name="country" class="form-select country-select" autocomplete="tel-country-code" aria-label="Country Code" required="">
+                                                <option value="USA (+1)" selected="">USA (+1)</option>
+                                                <option value="Canada (+1)">Canada
+                                                    (+1)</option>
+                                                <option value="Australia (+61)">Australia
+                                                    (+61)</option>
+                                                <option value="UK (+44)">UK
+                                                    (+44)</option>
+                                                <option value="UAE (+971)">UAE
+                                                    (+971)</option>
+                                            </select>
+                                            <span class="select-chevron" aria-hidden="true">
+                                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 1L5 5L9 1" stroke="#6B6B75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="phone-number-wrap">
+                                            <input type="tel" id="bottomPhoneNumber" name="phone" class="form-input" placeholder="Mobile Number*" autocomplete="tel" inputmode="tel" minlength="7" maxlength="15" required="">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-field-wrap custom-select-wrap" id="bottomBudgetSelectWrap">
+                                        <select id="bottomProjectBudget" name="budget" class="form-select custom-select-hidden" required="">
+                                            <option value="" disabled="" selected="" hidden="">
+                                                Select a Budget Range
+                                            </option>
+                                            <option value="$5K - $10K">$5K -
+                                                $10K</option>
+                                            <option value="$10K - $20K">$10K -
+                                                $20K</option>
+                                            <option value="$20K - $50K">$20K -
+                                                $50K</option>
+                                            <option value="$50K +">$50K
+                                                +</option>
+                                        </select>
+
+                                        <div class="custom-select-trigger" tabindex="0" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-label="Select a Budget Range">
+                                            <span class="custom-select-value">Select
+                                                a Budget Range</span>
+                                            <span class="select-chevron" aria-hidden="true">
+                                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 1L5 5L9 1" stroke="#6B6B75" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                </svg>
+                                            </span>
+                                        </div>
+
+                                        <div class="custom-select-menu" role="listbox">
+                                            <div class="custom-select-option" role="option" data-value="$5K - $10K">
+                                                <span>$5K - $10K</span>
+                                            </div>
+                                            <div class="custom-select-option" role="option" data-value="$10K - $20K">
+                                                <span>$10K - $20K</span>
+                                            </div>
+                                            <div class="custom-select-option" role="option" data-value="$20K - $50K">
+                                                <span>$20K - $50K</span>
+                                            </div>
+                                            <div class="custom-select-option" role="option" data-value="$50K +">
+                                                <span>$50K +</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-field-wrap">
+                                        <textarea id="bottomProjectRequirement" name="message" class="form-input form-textarea" placeholder="Please share your requirements" rows="3" spellcheck="true"></textarea>
+                                    </div>
+
+                                    <label class="nda-checkbox-wrap" for="bottomNdaConsent">
+                                        <input type="checkbox" id="bottomNdaConsent" name="nda" value="Yes">
+                                        <span class="custom-box"></span>
+                                        <span class="nda-text">Your ideas are
+                                            fully protected under our
+                                            NDA.</span>
+                                    </label>
+
+                                    <button type="submit" class="btn-submit gf-submit">
+                                        Get My Free App Plan &amp; Quote
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 17 17" fill="none">
+                                            <path d="M1.00007 15.4963L15.1422 1.35412M4.18205 1.00057C6.84057 2.04063 9.73515 2.32428 12.545 1.8201L15.1422 1.35412L14.6762 3.95132C14.172 6.76117 14.4557 9.65575 15.4958 12.3143" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </button>
+                                    <div class="gf-message" role="status" aria-live="polite"></div>
+                                </form>
+
+                                <div class="form-footer-info">
+                                    <div class="footer-bold">
+                                        Free 29-minute call · No obligation
+                                    </div>
+                                    <div class="footer-small">
+                                        We'll only use your details to respond
+                                        to your enquiry.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Site Footer Section -->
+        <footer class="site-footer" role="contentinfo">
+            <div class="container">
+                <!-- Top Row: Brand Logo & Legal Links -->
+                <div class="footer-top-row">
+                    <a href="#" class="footer-logo-link" aria-label="Developer Bazaar Home">
+                        <img src="assets/DeveloperBazaarLogo.svg" alt="Developer Bazaar - Creating Positive Impact" class="footer-logo-img" width="210" height="50" loading="lazy" decoding="async">
+                    </a>
+                    <nav class="footer-nav" aria-label="Legal Links">
+                        <a href="https://developerbazaar.com/privacy-policy/" class="footer-nav-link" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                        <a href="https://developerbazaar.com/refund-cancellation-policy/" class="footer-nav-link" target="_blank" rel="noopener noreferrer">Refund Policy</a>
+                    </nav>
+                </div>
+
+                <!-- Thin Divider -->
+                <hr class="footer-divider">
+
+                <!-- Bottom Row: Trademark/Copyright & DMCA Badge -->
+                <div class="footer-bottom-row">
+                    <div class="footer-copyright">
+                        Developer Bazaar® is a registered trademark of Developer
+                        Bazaar
+                        Technologies LLP, registered with MCA (LLPIN: AAP-7986).
+                        All rights
+                        reserved.
+                    </div>
+                    <div class="dmca-badge" aria-label="DMCA Protected">
+                        <img src="assets/dmc.svg" alt="DMCA Protected" class="dmca-badge-img" width="120" height="24" loading="lazy" decoding="async">
+                    </div>
+                </div>
+            </div>
+        </footer>
+<script src="script.js"></script>
+</body>
+</html>
