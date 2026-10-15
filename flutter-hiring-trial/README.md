@@ -1,0 +1,1 @@
+Sky-blue Flutter hiring landing page (1-week trial). Open index.html. Set FITNESS_FORM_ENDPOINT in script.js to receive leads (shared script; name kept from the fitness page). Replace assets/heroFlutter.svg and the logo with final artwork.

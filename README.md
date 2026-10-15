@@ -10,3 +10,6 @@ Static desktop/laptop landing page (min width 1200px) — open `index.html`.
 ## Hire Flutter Developer page
 `hire-flutter-developer/index.html` (+ `flutter.css`) — built from the supplied Hire-Flutter-Developer content doc, reusing `../style.css`, `../script.js` and `../assets`.
 Bracketed items (`[Developer Name]`, `$[X]`, case studies, extra testimonials) are the doc's placeholders — fill with real, approved data (see the doc's honesty checks) before launch.
+
+## Flutter hiring page — 1-week trial (sky-blue theme)
+`flutter-hiring-trial/` is self-contained (own `style.css` recolored to sky blue, `flutter.css`, `script.js`, `assets/`). Open `flutter-hiring-trial/index.html`.
