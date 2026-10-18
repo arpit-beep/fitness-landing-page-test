@@ -86,19 +86,29 @@
   <svg class="garland" aria-hidden="true" preserveAspectRatio="none"><use href="#garland"/></svg>
 
   <svg class="ganesha fade" viewBox="0 0 80 80" role="img" aria-label="श्री गणेश">
-    <circle cx="40" cy="40" r="37" fill="#FFF3DC" stroke="#B88A44" stroke-width="1"/>
-    <g stroke="#6B4A3A" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round">
-      <ellipse cx="19" cy="40" rx="11" ry="15" fill="#F2C28E"/><ellipse cx="61" cy="40" rx="11" ry="15" fill="#F2C28E"/>
-      <ellipse cx="40" cy="38" rx="15" ry="17" fill="#F4A56A"/>
-      <path d="M31 14 L40 4 L49 14 Q40 18 31 14Z" fill="#E2B456"/>
-      <path d="M36 21 Q40 17 44 21" fill="none"/>
-      <path d="M40 40 C 40 56 34 62 30 60 C 27 58 31 55 34 57" fill="none" stroke-width="6" stroke="#F4A56A"/>
-      <path d="M40 40 C 40 56 34 62 30 60 C 27 58 31 55 34 57" fill="none" stroke-width="1.1"/>
-      <path d="M46 52 L51 62 L47 62Z" fill="#FFF8EF"/>
-    </g>
-    <circle cx="33" cy="35" r="1.8" fill="#352A25"/><circle cx="47" cy="35" r="1.8" fill="#352A25"/>
-    <path d="M40 22v6" stroke="#762735" stroke-width="2" stroke-linecap="round"/>
-  </svg>
+  <defs>
+    <radialGradient id="gk" cx="50%" cy="40%" r="60%"><stop offset="0" stop-color="#FAB985"/><stop offset="1" stop-color="#E2803E"/></radialGradient>
+    <radialGradient id="gh" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FFF8E0"/><stop offset="1" stop-color="#FFE3B0"/></radialGradient>
+  </defs>
+  <circle cx="40" cy="40" r="38" fill="url(#gh)" stroke="#B88A44" stroke-width="1"/>
+  <circle cx="40" cy="40" r="34" fill="none" stroke="#B88A44" stroke-width=".5" stroke-dasharray="1 2.500"/>
+  <g stroke-linejoin="round" stroke-linecap="round" stroke="#8A4A22" stroke-width=".9">
+    <ellipse cx="17" cy="38" rx="11" ry="16" fill="#F29A5C"/><ellipse cx="17" cy="38" rx="6" ry="11" fill="#F6B88A" stroke="none"/>
+    <ellipse cx="63" cy="38" rx="11" ry="16" fill="#F29A5C"/><ellipse cx="63" cy="38" rx="6" ry="11" fill="#F6B88A" stroke="none"/>
+    <path d="M26 56C28 70 52 70 54 56L54 66H26Z" fill="#E2B456" stroke="#8A5E22"/>
+    <ellipse cx="40" cy="38" rx="17" ry="19" fill="url(#gk)"/>
+    <path d="M28 18L32 6 36 14 40 3 44 14 48 6 52 18Q40 22 28 18Z" fill="#E7B54F" stroke="#8A5E22"/>
+    <circle cx="40" cy="12" r="2.200" fill="#B3262F" stroke="#8A5E22" stroke-width=".5"/><circle cx="33" cy="15" r="1.300" fill="#2E8B6E" stroke="none"/><circle cx="47" cy="15" r="1.300" fill="#2E8B6E" stroke="none"/>
+    <path d="M40 40C40 56 33 63 29 60 26 57 31 54 34 57" fill="none" stroke="#B85F2A" stroke-width="9.500"/>
+    <path d="M40 40C40 56 33 63 29 60 26 57 31 54 34 57" fill="none" stroke="#F0954F" stroke-width="7.500"/>
+    <path d="M38 46q-1 6 -3 10M42 48q-1 6 -3 10" fill="none" stroke="#C26A30" stroke-width=".7"/>
+    <path d="M47 52C50 56 52 62 50 66 46 64 44 58 46 52Z" fill="#FFF8EC" stroke="#B9A98A"/>
+    <path d="M34 28q3-3 6 0M40 28q3-3 6 0" fill="none" stroke="#6B3A1A" stroke-width="1.100"/>
+  </g>
+  <ellipse cx="34" cy="32" rx="2.800" ry="2" fill="#fff"/><ellipse cx="46" cy="32" rx="2.800" ry="2" fill="#fff"/>
+  <circle cx="34.500" cy="32" r="1.300" fill="#2B1D19"/><circle cx="45.500" cy="32" r="1.300" fill="#2B1D19"/>
+  <path d="M36 20Q40 30 44 20" fill="none" stroke="#B3262F" stroke-width="1.800" stroke-linecap="round"/><circle cx="40" cy="23" r="1" fill="#B3262F"/>
+</svg>
 
   <div class="prayer rv">
     <svg class="orn" viewBox="0 0 200 24" aria-hidden="true"><use href="#divider"/></svg>
@@ -111,75 +121,159 @@
     <p class="shubh fade d1">॥ शुभ विवाह ॥</p>
 
     <div class="arch-wrap fade d1">
-      <svg class="arch" viewBox="0 0 320 390" role="img" aria-label="भगवान शिव और माता पार्वती का विवाह चित्र">
-        <defs>
-          <radialGradient id="glow" cx="50%" cy="38%" r="60%"><stop offset="0" stop-color="#FFE8B8"/><stop offset=".6" stop-color="#FFF1DA"/><stop offset="1" stop-color="#FDEBD5"/></radialGradient>
-        </defs>
-        <!-- temple arch -->
-        <path d="M14 390V160A146 146 0 0 1 306 160V390Z" fill="#D9B160" fill-opacity=".25"/>
-        <path d="M24 390V160A136 136 0 0 1 296 160V390Z" fill="url(#glow)" stroke="#B88A44" stroke-width="2"/>
-        <path d="M33 390V160A127 127 0 0 1 287 160V390Z" fill="none" stroke="#B88A44" stroke-width=".8" stroke-dasharray="1 4" stroke-linecap="round"/>
-        <g stroke="#B88A44" stroke-width="1.2" fill="#FFF3DC"><path d="M160 6c-8 8-8 16 0 24 8-8 8-16 0-24z"/><circle cx="160" cy="36" r="3"/></g>
-        <!-- scalloped arch ornament -->
-        <g fill="none" stroke="#B88A44" stroke-width="1">
-          <path d="M52 112 q10-6 20 0 M80 90 q10-6 20 0 M110 74 q10-6 20 0 M190 74 q10-6 20 0 M220 90 q10-6 20 0 M248 112 q10-6 20 0"/>
-        </g>
-        <!-- halo -->
-        <circle cx="160" cy="160" r="86" fill="#FFF8E6" fill-opacity=".8" stroke="#D9B160" stroke-width="1"/>
-        <circle cx="160" cy="160" r="94" fill="none" stroke="#D9B160" stroke-width=".7" stroke-dasharray="2 5"/>
+      <svg class="arch" viewBox="0 0 320 400" role="img" aria-label="भगवान शिव और माता पार्वती का विवाह चित्र">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6C98A"/><stop offset=".45" stop-color="#FFE5C0"/><stop offset="1" stop-color="#FFF6E6"/></linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FFF8DC"/><stop offset=".55" stop-color="#FFE7A8" stop-opacity=".7"/><stop offset="1" stop-color="#FFE7A8" stop-opacity="0"/></radialGradient>
+    <linearGradient id="gFrame" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E9C77A"/><stop offset=".5" stop-color="#B88A44"/><stop offset="1" stop-color="#D9B160"/></linearGradient>
+    <linearGradient id="skS" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#CBD8E4"/><stop offset="1" stop-color="#93A9C0"/></linearGradient>
+    <linearGradient id="skP" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F6D3B0"/><stop offset="1" stop-color="#DFA57C"/></linearGradient>
+    <linearGradient id="sari" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C14560"/><stop offset=".6" stop-color="#8E2640"/><stop offset="1" stop-color="#6A1A30"/></linearGradient>
+    <linearGradient id="tiger" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EDB257"/><stop offset="1" stop-color="#C9852F"/></linearGradient>
+    <linearGradient id="snow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#C9D6E6"/></linearGradient>
+    <clipPath id="archClip"><path d="M26 400V165A134 134 0 0 1 294 165V400Z"/></clipPath>
+    <filter id="blur"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
 
-        <g stroke="#6B4A3A" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round">
-          <!-- trishul -->
-          <path d="M80 100V340" stroke="#B88A44" stroke-width="2.4"/>
-          <path d="M72 108c0-10 3-14 8-18 5 4 8 8 8 18M80 90V76" fill="none" stroke="#B88A44" stroke-width="2"/>
-          <ellipse cx="80" cy="140" rx="4" ry="7" fill="#E9C77A"/>
-          <!-- SHIVA -->
-          <path d="M96 178 Q118 168 140 178 L144 238 L92 238Z" fill="#B9C8D6"/>
-          <path d="M92 236 H144 L150 340 H86Z" fill="#F4E5C0"/>
-          <path d="M86 326 q8 6 16 0 q8 6 16 0 q8 6 16 0 q8 6 16 0" fill="none" stroke="#B88A44"/>
-          <path d="M96 238 H144" stroke="#B88A44" stroke-width="2"/>
-          <circle cx="118" cy="152" r="16" fill="#B9C8D6"/>
-          <path d="M102 148 Q103 126 118 124 Q133 126 134 148 Q127 139 118 139 Q109 139 102 148Z" fill="#5A4636"/>
-          <ellipse cx="118" cy="121" rx="7" ry="9" fill="#5A4636"/>
-          <path d="M124 111 a7 7 0 1 0 8 10 a5.500 5.500 0 1 1 -8 -10Z" fill="#FFF3C9" stroke="#B88A44"/>
-          <path d="M112 152q3 2 6 0M120 152q3 2 6 0" fill="none" stroke-width="1"/>
-          <path d="M118 143v5" stroke="#762735" stroke-width="2"/>
-          <path d="M114 160q4 3 8 0" fill="none" stroke="#762735"/>
-          <path d="M103 185 Q118 214 133 185" fill="none" stroke="#7B5A3F" stroke-width="3.500" stroke-dasharray="0 6"/>
-          <path d="M96 190 Q86 200 84 214" fill="none" stroke="#B9C8D6" stroke-width="8"/>
-          <path d="M138 190 Q158 206 164 228" fill="none" stroke="#B9C8D6" stroke-width="8"/>
-          <path d="M108 118c-6 10-6 24-2 34" fill="none" stroke="#7FA8C9" stroke-width="2.500" opacity=".8"/>
+  <!-- carved temple arch frame -->
+  <path d="M8 400V165A152 152 0 0 1 312 165V400Z" fill="url(#gFrame)"/>
+  <path d="M16 400V165A144 144 0 0 1 304 165V400Z" fill="none" stroke="#7A5420" stroke-width=".8" stroke-dasharray="2 3"/>
+  <path d="M26 400V165A134 134 0 0 1 294 165V400Z" fill="url(#sky)"/>
 
-          <!-- PARVATI -->
-          <path d="M184 180 Q204 170 224 180 L236 340 L172 340Z" fill="#A8394B"/>
-          <path d="M176 322 H234 L236 340 H172Z" fill="#D9B160"/>
-          <path d="M184 180 Q204 170 224 180 L226 206 L182 206Z" fill="#D9A84E"/>
-          <path d="M190 164 Q176 210 180 270 L194 262 Q192 214 200 180Z" fill="#E9B85A" fill-opacity=".85"/>
-          <path d="M204 180 L216 340" stroke="#762735" stroke-width=".8" fill="none" opacity=".5"/>
-          <circle cx="204" cy="154" r="15" fill="#EDC3A0"/>
-          <path d="M189 152 Q190 134 204 134 Q218 134 219 152 Q212 142 204 142 Q196 142 189 152Z" fill="#2F211C"/>
-          <ellipse cx="204" cy="136" rx="9" ry="6" fill="#2F211C"/>
-          <path d="M191 138 L195 124 L200 134 L204 120 L208 134 L213 124 L217 138Z" fill="#E2B456" stroke="#B88A44"/>
-          <circle cx="204" cy="148" r="1.700" fill="#B3262F" stroke="none"/>
-          <path d="M198 154q3 2 6 0M205 154q3 2 6 0" fill="none" stroke-width="1"/>
-          <path d="M200 162q4 3 8 0" fill="none" stroke="#A8394B"/>
-          <circle cx="188" cy="158" r="2" fill="#E2B456"/><circle cx="220" cy="158" r="2" fill="#E2B456"/>
-          <path d="M192 184 Q204 204 216 184" fill="none" stroke="#E2B456" stroke-width="3"/>
-          <path d="M188 190 Q172 204 168 226" fill="none" stroke="#EDC3A0" stroke-width="8"/>
-          <path d="M220 190 Q242 206 250 228" fill="none" stroke="#EDC3A0" stroke-width="8"/>
-          <g transform="translate(252 218)"><use href="#lotus" x="-15" y="-15" width="30" height="30"/></g>
-          <!-- jaimala -->
-          <path d="M162 226 Q164 276 166 282" fill="none" stroke="#F2A33A" stroke-dasharray="0 7"/>
-          <path d="M166 226 Q172 266 170 272" fill="none" stroke="#FFFDF6" stroke-width="5" stroke-dasharray="0 7"/>
-          <path d="M162 226 Q150 250 160 280 Q168 296 176 280 Q176 250 166 226" fill="none" stroke="#F2A33A" stroke-width="5" stroke-dasharray="0 6.500"/>
-        </g>
+  <g clip-path="url(#archClip)">
+    <circle cx="160" cy="175" r="130" fill="url(#sun)"/>
+    <!-- Kailash -->
+    <path d="M26 312L74 236 96 252 138 168 176 238 202 212 252 266 294 244V330H26Z" fill="url(#snow)" stroke="#B9C6D8" stroke-width=".8"/>
+    <path d="M138 168L176 238 160 232 150 214 138 232 124 214Z" fill="#9FB0C8" opacity=".35"/>
+    <path d="M26 330Q90 296 160 316T294 306V340H26Z" fill="#8FA683" fill-opacity=".5"/>
+    <!-- clouds -->
+    <g fill="#fff" opacity=".7" filter="url(#blur)"><ellipse cx="70" cy="150" rx="36" ry="9"/><ellipse cx="250" cy="130" rx="38" ry="9"/><ellipse cx="120" cy="290" rx="50" ry="8"/></g>
+    <!-- floor -->
+    <rect x="26" y="338" width="268" height="62" fill="#F4E3C4"/>
+  </g>
 
-        <!-- lotus base & kolam -->
-        <path d="M24 340 Q160 322 296 340 V390 H24Z" fill="#F4E3C4" fill-opacity=".7"/>
-        <g transform="translate(160 346)"><use href="#lotus" x="-46" y="-30" width="92" height="92" opacity=".95"/></g>
-        <g fill="#B88A44"><circle cx="50" cy="372" r="1.600"/><circle cx="62" cy="372" r="1.600"/><circle cx="74" cy="372" r="1.600"/><circle cx="86" cy="372" r="1.600"/><circle cx="234" cy="372" r="1.600"/><circle cx="246" cy="372" r="1.600"/><circle cx="258" cy="372" r="1.600"/><circle cx="270" cy="372" r="1.600"/></g>
-        <path d="M50 372q6-8 12 0t12 0 12 0M234 372q6-8 12 0t12 0 12 0" fill="none" stroke="#B88A44" stroke-width=".8"/>
-      </svg>
+  <!-- carved scallops on arch -->
+  <g fill="none" stroke="#7A5420" stroke-width="1" opacity=".7">
+    <path d="M44 120q10-8 20 0M70 94q10-8 20 0M100 74q10-8 20 0M200 74q10-8 20 0M230 94q10-8 20 0M256 120q10-8 20 0"/></g>
+  <g stroke="#7A5420" stroke-width="1" fill="#FFF3DC"><path d="M160 4c-8 8-8 18 0 26 8-8 8-18 0-26z"/><circle cx="160" cy="36" r="3.500" fill="#B3262F"/></g>
+
+  <!-- marigold & jasmine garland following arch -->
+  <path d="M42 170C46 78 274 78 278 170" fill="none" stroke="#F2A33A" stroke-width="6" stroke-linecap="round" stroke-dasharray="0 7"/>
+  <path d="M46 170C50 84 270 84 274 170" fill="none" stroke="#FFFDF6" stroke-width="4" stroke-linecap="round" stroke-dasharray="0 7" stroke-dashoffset="3"/>
+  <path d="M42 170q-2 30 -4 44M278 170q2 30 4 44" stroke="#F2A33A" stroke-width="5" stroke-linecap="round" stroke-dasharray="0 7" fill="none"/>
+
+  <!-- soft shadows on the dais -->
+  <path d="M30 338H290L304 366H16Z" fill="#FFF3DC" stroke="#B88A44" stroke-width="1.200"/>
+  <path d="M16 366H304V374H16Z" fill="#D9B160" stroke="#9A6E2C" stroke-width=".8"/>
+  <ellipse cx="120" cy="346" rx="36" ry="5" fill="#6B4A2E" opacity=".25"/><ellipse cx="204" cy="346" rx="38" ry="5" fill="#6B4A2E" opacity=".25"/>
+
+  <!-- ======== SHIVA ======== -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M110 112C94 128 92 160 100 196" fill="none" stroke="#9CC7E8" stroke-width="4" opacity=".75"/>
+    <circle cx="120" cy="150" r="27" fill="#FFF4D6" fill-opacity=".75" stroke="#D9B160" stroke-width=".8"/>
+    <!-- trishul -->
+    <path d="M78 90V346" stroke="#9A6E2C" stroke-width="3"/><path d="M78 90V346" stroke="#E9C77A" stroke-width="1.200"/>
+    <path d="M68 108C68 94 72 88 78 82 84 88 88 94 88 108M78 108V70" fill="none" stroke="#B88A44" stroke-width="2.600"/>
+    <path d="M78 66l-3 7h6zM68 100l-3 6h6zM88 100l-3 6h6z" fill="#E9C77A" stroke="#9A6E2C" stroke-width=".6"/>
+    <path d="M70 120h16l-8 9 8 9H70l8-9z" fill="#E9C77A" stroke="#7A5420" stroke-width=".8"/>
+    <path d="M86 122q10 12 4 24" fill="none" stroke="#B3262F" stroke-width="1.500"/>
+    <!-- dhoti: tiger skin -->
+    <path d="M97 236H143L151 344H89Z" fill="url(#tiger)" stroke="#8A5A1E" stroke-width=".8"/>
+    <g stroke="#3A2616" stroke-width="2" fill="none"><path d="M100 252q8 3 14 0M118 248q8 4 18 0M98 276q10 4 18 0M122 272q8 4 20 0M96 302q12 4 22 0M124 298q8 4 22 0M94 326q12 4 22 0M122 322q8 4 24 0"/></g>
+    <path d="M97 236H143V246H97Z" fill="#B3262F" stroke="#7A5420" stroke-width=".8"/><path d="M97 241H143" stroke="#E9C77A" stroke-width="1.500"/>
+    <path d="M92 332q10 6 20 0t20 0 18 0" fill="none" stroke="#7A5420" stroke-width="1"/>
+    <!-- torso -->
+    <path d="M98 180C108 172 132 172 142 180L147 206C145 222 143 232 141 238H99C97 232 95 222 93 206Z" fill="url(#skS)" stroke="#6B7C92" stroke-width=".8"/>
+    <path d="M127 176L142 180 147 206C145 222 143 232 141 238H129C133 216 133 196 127 176Z" fill="#6E86A3" opacity=".3"/>
+    <path d="M110 200q10 5 20 0M112 214q8 4 16 0" fill="none" stroke="#6E86A3" stroke-width=".8" opacity=".6"/>
+    <path d="M112 166h16v14H112z" fill="url(#skS)"/>
+    <!-- ash stripes on chest -->
+    <g stroke="#fff" stroke-width="1.400" opacity=".85"><path d="M108 194q12 4 24 0M107 199q13 4 26 0M106 204q14 4 28 0"/></g>
+    <!-- snake -->
+    <path d="M104 178C108 198 132 198 138 178" fill="none" stroke="#3F5A4C" stroke-width="4"/>
+    <path d="M138 178C146 182 148 192 142 198" fill="none" stroke="#3F5A4C" stroke-width="4"/>
+    <ellipse cx="142" cy="200" rx="4" ry="5" fill="#4F6F5E" stroke="#2C4036" stroke-width=".7"/>
+    <!-- rudraksha -->
+    <path d="M107 183Q120 218 133 183" fill="none" stroke="#6B4A2E" stroke-width="4" stroke-dasharray="0 5.500"/>
+    <!-- arms -->
+    <path d="M99 186C90 198 84 208 80 220" fill="none" stroke="#6B7C92" stroke-width="10"/><path d="M99 186C90 198 84 208 80 220" fill="none" stroke="url(#skS)" stroke-width="8.600"/>
+    <path d="M141 188C150 200 156 214 159 232" fill="none" stroke="#6B7C92" stroke-width="10"/><path d="M141 188C150 200 156 214 159 232" fill="none" stroke="url(#skS)" stroke-width="8.600"/>
+    <circle cx="79" cy="222" r="5" fill="url(#skS)" stroke="#6B7C92" stroke-width=".7"/><circle cx="159" cy="234" r="5" fill="url(#skS)" stroke="#6B7C92" stroke-width=".7"/>
+    <path d="M92 198h9M148 204l7-3" stroke="#E9C77A" stroke-width="3"/>
+    <!-- head -->
+    <ellipse cx="120" cy="152" rx="14" ry="16" fill="url(#skS)" stroke="#6B7C92" stroke-width=".8"/>
+    <ellipse cx="106" cy="154" rx="2.600" ry="4" fill="#B3C3D4" stroke="#6B7C92" stroke-width=".6"/><ellipse cx="134" cy="154" rx="2.600" ry="4" fill="#B3C3D4" stroke="#6B7C92" stroke-width=".6"/>
+    <circle cx="106" cy="160" r="1.600" fill="#E9C77A"/><circle cx="134" cy="160" r="1.600" fill="#E9C77A"/>
+    <path d="M104 152C99 128 108 118 120 118 132 118 141 128 136 152 132 141 128 135 120 135 112 135 108 141 104 152Z" fill="#4B3A2E" stroke="#2C1F17" stroke-width=".8"/>
+    <path d="M104 152C97 172 99 192 107 204M136 152C143 172 141 192 133 204" fill="none" stroke="#4B3A2E" stroke-width="5.500"/>
+    <ellipse cx="120" cy="111" rx="9" ry="12" fill="#4B3A2E" stroke="#2C1F17" stroke-width=".8"/>
+    <path d="M114 106q6 4 12 0M113 112q7 4 14 0" fill="none" stroke="#2C1F17" stroke-width=".8"/>
+    <path d="M126 100a8 8 0 1 0 9 12 6.500 6.500 0 1 1 -9 -12Z" fill="#FFF3C9" stroke="#B88A44" stroke-width=".9"/>
+    <g stroke="#fff" stroke-width="1.100" opacity=".9"><path d="M113 140h14M113 142.500h14M113 145h14"/></g>
+    <ellipse cx="120" cy="148" rx="1.200" ry="3" fill="#B3262F"/>
+    <path d="M111 152q3-2 6 0M123 152q3-2 6 0" fill="none" stroke="#2C1F17" stroke-width="1"/>
+    <path d="M111 155q3 2 6 0M123 155q3 2 6 0" fill="none" stroke="#2C1F17" stroke-width=".9"/>
+    <path d="M120 156v6q-2 1-3 0" fill="none" stroke="#6B7C92" stroke-width=".9"/>
+    <path d="M115 166q5 3 10 0" fill="none" stroke="#9E3A3F" stroke-width="1.400"/>
+  </g>
+
+  <!-- ======== PARVATI ======== -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="204" cy="150" r="26" fill="#FFF4D6" fill-opacity=".75" stroke="#D9B160" stroke-width=".8"/>
+    <path d="M188 138C176 172 170 220 176 284L198 272C192 224 194 184 202 148Z" fill="#F0B9A0" opacity=".6" stroke="#D9A07F" stroke-width=".6"/>
+    <!-- saree -->
+    <path d="M181 232H227L242 344H166Z" fill="url(#sari)" stroke="#5A1428" stroke-width=".8"/>
+    <g stroke="#5A1428" stroke-width=".9" opacity=".55" fill="none"><path d="M190 238L180 342M200 238L198 342M210 238L216 342M220 238L234 342"/></g>
+    <g stroke="#E9C77A" stroke-width=".9" fill="none"><path d="M185 260q4 3 8 0M206 280q4 3 8 0M190 300q4 3 8 0M216 300q4 3 8 0M200 252q4 3 8 0"/></g>
+    <path d="M167 326H241L242 344H166Z" fill="#E2B456" stroke="#8A5E22" stroke-width=".8"/>
+    <path d="M168 335H240" stroke="#B3262F" stroke-width="2.500" stroke-dasharray="3 3"/>
+    <path d="M181 226H227V236H181Z" fill="#E2B456" stroke="#8A5E22" stroke-width=".8"/>
+    <g fill="#B3262F"><circle cx="190" cy="231" r="1.300"/><circle cx="204" cy="231" r="1.300"/><circle cx="218" cy="231" r="1.300"/></g>
+    <!-- midriff -->
+    <path d="M186 204H224L227 228H181Z" fill="url(#skP)"/>
+    <path d="M204 216v.1" stroke="#B88060" stroke-width="2"/>
+    <!-- blouse -->
+    <path d="M184 183C194 176 214 176 224 183L226 206H184Z" fill="#C23F55" stroke="#7A1F33" stroke-width=".8"/>
+    <path d="M186 204H224" stroke="#E2B456" stroke-width="2"/>
+    <!-- pallu -->
+    <path d="M186 181L198 178C206 204 216 232 236 300L224 332C206 282 194 234 184 198Z" fill="#B23551" stroke="#E2B456" stroke-width="2"/>
+    <g stroke="#E2B456" stroke-width=".8" opacity=".8" fill="none"><path d="M196 192q8 28 22 72M190 196q8 30 24 76"/></g>
+    <!-- neck + jewellery -->
+    <path d="M198 166h12v14h-12z" fill="url(#skP)"/>
+    <path d="M192 181Q204 202 216 181" fill="none" stroke="#E2B456" stroke-width="3"/><path d="M195 180Q204 193 213 180" fill="none" stroke="#E2B456" stroke-width="2"/>
+    <circle cx="204" cy="198" r="3.200" fill="#B3262F" stroke="#8A5E22" stroke-width=".8"/>
+    <!-- arms -->
+    <path d="M186 188C176 200 170 214 170 232" fill="none" stroke="#B88060" stroke-width="9"/><path d="M186 188C176 200 170 214 170 232" fill="none" stroke="url(#skP)" stroke-width="7.600"/>
+    <path d="M222 190C236 200 244 212 247 224" fill="none" stroke="#B88060" stroke-width="9"/><path d="M222 190C236 200 244 212 247 224" fill="none" stroke="url(#skP)" stroke-width="7.600"/>
+    <path d="M168 224h6M168 227h6M243 214l6 3M242 217l6 3" stroke="#E2B456" stroke-width="2.400"/>
+    <circle cx="170" cy="234" r="4.500" fill="url(#skP)" stroke="#B88060" stroke-width=".6"/><circle cx="248" cy="226" r="4.500" fill="url(#skP)" stroke="#B88060" stroke-width=".6"/>
+    <g transform="translate(252 218)"><use href="#lotus" x="-16" y="-20" width="34" height="34"/></g>
+    <!-- head -->
+    <ellipse cx="204" cy="152" rx="13" ry="15" fill="url(#skP)" stroke="#B88060" stroke-width=".8"/>
+    <path d="M190 150C187 131 196 123 204 123 212 123 221 131 218 150 214 140 210 135 204 135 198 135 194 140 190 150Z" fill="#2B1D19"/>
+    <path d="M204 123V135" stroke="#B88060" stroke-width="1"/>
+    <ellipse cx="204" cy="120" rx="11" ry="8" fill="#2B1D19"/>
+    <g fill="#FFFDF6" stroke="#B88A44" stroke-width=".4"><circle cx="195" cy="120" r="2"/><circle cx="200" cy="114" r="2"/><circle cx="207" cy="113" r="2"/><circle cx="213" cy="118" r="2"/><circle cx="214" cy="125" r="2"/></g>
+    <path d="M193 130L197 120 200 128 204 115 208 128 211 120 215 130Z" fill="#E2B456" stroke="#8A5E22" stroke-width=".7"/>
+    <path d="M204 135v7" stroke="#E2B456" stroke-width="1"/><circle cx="204" cy="143" r="1.800" fill="#B3262F" stroke="#8A5E22" stroke-width=".5"/>
+    <path d="M198 147q3-2 5 0M205 147q3-2 5 0" fill="none" stroke="#2B1D19" stroke-width="1"/>
+    <path d="M198 151q3 2.500 5 0M205 151q3 2.500 5 0" fill="none" stroke="#2B1D19" stroke-width=".9"/>
+    <circle cx="204" cy="145.500" r=".1" stroke="#B3262F" stroke-width="2.400"/>
+    <path d="M204 152v5q-2 1-3 0" fill="none" stroke="#B88060" stroke-width=".9"/><circle cx="200.500" cy="158" r="1.200" fill="none" stroke="#E2B456" stroke-width=".8"/>
+    <path d="M199 162q5 3 10 0" fill="none" stroke="#B3262F" stroke-width="1.600"/>
+    <circle cx="191" cy="157" r="2.200" fill="#E2B456"/><circle cx="217" cy="157" r="2.200" fill="#E2B456"/><path d="M191 159v6M217 159v6" stroke="#E2B456" stroke-width="1.300"/><circle cx="191" cy="166" r="1.500" fill="#B3262F"/><circle cx="217" cy="166" r="1.500" fill="#B3262F"/>
+  </g>
+
+  <!-- ======== varmala ======== -->
+  <path d="M157 236C146 266 150 296 164 298 178 296 184 266 173 234" fill="none" stroke="#F2A33A" stroke-width="7" stroke-linecap="round" stroke-dasharray="0 7.500"/>
+  <path d="M159 236C150 264 154 292 164 294 174 292 178 266 171 236" fill="none" stroke="#FFFDF6" stroke-width="4.500" stroke-linecap="round" stroke-dasharray="0 7.500" stroke-dashoffset="3.500"/>
+  <path d="M164 298v12" stroke="#F2A33A" stroke-width="3" stroke-linecap="round"/><circle cx="164" cy="312" r="3.500" fill="#F2A33A"/>
+
+  <!-- lotus dais front & kolam -->
+  <use href="#lotus" x="124" y="338" width="72" height="72"/>
+  <g fill="#B88A44"><circle cx="48" cy="388" r="1.600"/><circle cx="60" cy="388" r="1.600"/><circle cx="72" cy="388" r="1.600"/><circle cx="84" cy="388" r="1.600"/><circle cx="236" cy="388" r="1.600"/><circle cx="248" cy="388" r="1.600"/><circle cx="260" cy="388" r="1.600"/><circle cx="272" cy="388" r="1.600"/></g>
+  <path d="M48 388q6-9 12 0t12 0 12 0M236 388q6-9 12 0t12 0 12 0" fill="none" stroke="#B88A44" stroke-width=".8"/>
+</svg>
       <svg class="lamp l" aria-hidden="true"><use href="#lamp"/></svg>
       <svg class="lamp r" aria-hidden="true"><use href="#lamp"/></svg>
     </div>
@@ -202,7 +296,7 @@
 <!-- ================= 3 · सादर आमंत्रण ================= -->
 <section class="letter-sec" id="nimantran">
   <div class="letter rv">
-    <svg class="lotus-sm" aria-hidden="true"><use href="#lotus"/></svg>
+    <span class="seal" aria-hidden="true"><svg viewBox="0 0 60 60"><use href="#lotus"/></svg></span>
     <h2 class="h2">॥ सादर आमंत्रण ॥</h2>
     <svg class="orn" aria-hidden="true"><use href="#divider"/></svg>
     <p>ईश्वर की असीम कृपा एवं पूज्यजनों के शुभाशीर्वाद से हमारे परिवार में शुभ विवाह का मंगल अवसर आया है।</p>
@@ -276,26 +370,65 @@
   <h2 class="h2 rv">॥ विवाह समारोह ॥</h2>
   <svg class="orn" aria-hidden="true"><use href="#divider"/></svg>
 
-  <svg class="baraat rv" viewBox="0 0 240 130" role="img" aria-label="बारात का चित्र">
-    <g stroke="#E3C98F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
-      <path d="M20 118h200" stroke-dasharray="1 5"/>
-      <!-- horse -->
-      <path d="M72 70c10-8 50-8 64 0 6 5 8 14 4 22l-6 24M72 70c-6 10-6 24-2 30l4 16M96 84l-2 32M122 84l4 32M136 70c6-14 14-26 24-28l10 8c-2 6-10 8-14 6-4 8-8 16-14 22" fill="rgba(227,201,143,.18)"/>
-      <path d="M160 42l-2-10 8 6" /><circle cx="168" cy="48" r="1" fill="#E3C98F"/>
-      <path d="M78 76c14 6 46 6 58 0" stroke-width="3" stroke="#B88A44"/>
-      <!-- groom -->
-      <path d="M104 70v-24M96 70h16M100 46h8" />
-      <circle cx="104" cy="34" r="8" fill="rgba(255,248,239,.15)"/>
-      <path d="M96 30c0-10 16-10 16 0M94 30h20" stroke="#FFE9BE"/>
-      <path d="M104 22v-5" stroke="#FFE9BE"/>
-      <path d="M112 50l12-10" />
-      <!-- dhol / shehnai side -->
-      <ellipse cx="34" cy="94" rx="10" ry="14" fill="rgba(227,201,143,.18)"/><path d="M34 80v28M26 88l16 12M42 88l-16 12"/>
-      <path d="M26 66a8 8 0 1 1 16 0v14H26z M34 52v6"/>
-      <!-- lamp -->
-      <path d="M204 60c-4 6-4 9 0 12 4-3 4-6 0-12zM194 76h20c-1 6-5 8-10 8s-9-2-10-8zM204 84v12M196 112c0-10 4-14 8-14s8 4 8 14z"/>
+  <svg class="baraat rv" viewBox="0 0 260 150" role="img" aria-label="बारात का चित्र">
+  <defs>
+    <linearGradient id="hz" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E7C79B"/><stop offset="1" stop-color="#B58455"/></linearGradient>
+    <linearGradient id="umb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C98F3A"/><stop offset=".5" stop-color="#F0CF84"/><stop offset="1" stop-color="#C98F3A"/></linearGradient>
+    <radialGradient id="glw" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#E3C98F" stop-opacity=".35"/><stop offset="1" stop-color="#E3C98F" stop-opacity="0"/></radialGradient>
+  </defs>
+  <ellipse cx="130" cy="110" rx="125" ry="30" fill="url(#glw)"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <!-- umbrella -->
+    <path d="M140 60V16" stroke="#E3C98F" stroke-width="1.500"/>
+    <path d="M104 24C106 6 174 6 176 24 168 20 160 24 152 20 146 24 134 24 128 20 120 24 112 20 104 24Z" fill="url(#umb)" stroke="#8A5E22" stroke-width=".8"/>
+    <path d="M140 8v-4" stroke="#E3C98F" stroke-width="2"/>
+    <g stroke="#E3C98F" stroke-width=".9"><path d="M110 24v8M124 24v8M140 24v8M156 24v8M170 24v8"/></g>
+    <g fill="#F2A33A"><circle cx="110" cy="33" r="1.800"/><circle cx="124" cy="33" r="1.800"/><circle cx="140" cy="33" r="1.800"/><circle cx="156" cy="33" r="1.800"/><circle cx="170" cy="33" r="1.800"/></g>
+
+    <!-- horse -->
+    <path d="M100 124L98 90M114 126L116 98M158 126L158 98M172 122L170 96" stroke="#8E6038" stroke-width="7" fill="none"/>
+    <path d="M100 124L98 90M114 126L116 98M158 126L158 98M172 122L170 96" stroke="url(#hz)" stroke-width="5" fill="none"/>
+    <g fill="#2B1D19"><ellipse cx="100" cy="126" rx="4.500" ry="2.500"/><ellipse cx="114" cy="128" rx="4.500" ry="2.500"/><ellipse cx="158" cy="128" rx="4.500" ry="2.500"/><ellipse cx="172" cy="124" rx="4.500" ry="2.500"/></g>
+    <path d="M92 90C88 74 98 66 114 66H160C172 66 176 58 180 50L188 34 194 30 196 40C206 44 216 54 222 64 226 70 222 76 216 75L206 73C202 72 200 76 196 82 192 92 184 98 176 100 160 104 124 106 108 102 98 98 94 94 92 90Z" fill="url(#hz)" stroke="#6E4524" stroke-width="1"/>
+    <path d="M92 86C80 90 74 106 82 124" fill="none" stroke="#3A2616" stroke-width="5"/>
+    <path d="M182 48C176 56 174 64 174 72" fill="none" stroke="#3A2616" stroke-width="5"/>
+    <path d="M190 33l-2-8 7 5z" fill="#6E4524"/>
+    <circle cx="207" cy="56" r="1.800" fill="#2B1D19"/>
+    <path d="M196 44L214 70" stroke="#E2B456" stroke-width="2"/><path d="M200 58q8 6 14 0" fill="none" stroke="#B3262F" stroke-width="2"/>
+    <!-- saddle cloth -->
+    <path d="M112 68H160L164 96H108Z" fill="#9E2A44" stroke="#E2B456" stroke-width="1.500"/>
+    <path d="M114 90H158" stroke="#E2B456" stroke-width="1.500" stroke-dasharray="2 3"/>
+    <path d="M176 60Q188 82 178 100" fill="none" stroke="#F2A33A" stroke-width="5" stroke-dasharray="0 6"/>
+    <!-- groom -->
+    <path d="M122 68L120 42C126 36 140 36 146 42L144 68Z" fill="#E7B54F" stroke="#8A5E22" stroke-width=".8"/>
+    <path d="M124 48Q134 62 144 48" fill="none" stroke="#F2A33A" stroke-width="3" stroke-dasharray="0 4.500"/>
+    <path d="M124 68L136 92 150 94" stroke="#B3262F" stroke-width="5" fill="none"/>
+    <path d="M144 46L156 58 168 66" stroke="#E7B54F" stroke-width="5" fill="none"/>
+    <circle cx="134" cy="33" r="7" fill="#EDC3A0" stroke="#B88060" stroke-width=".6"/>
+    <path d="M125 31C124 16 144 16 143 31Z" fill="#B3262F" stroke="#7A1F33" stroke-width=".7"/>
+    <path d="M124 28H144" stroke="#E2B456" stroke-width="1.600"/><path d="M134 18L136 8 138 18" fill="none" stroke="#E2B456" stroke-width="1.500"/><circle cx="136" cy="7" r="1.600" fill="#B3262F"/>
+    <g stroke="#FFFDF6" stroke-width="1.500" stroke-dasharray="0 3"><path d="M126 31v16M130 32v18M134 32v20M138 32v18M142 31v16"/></g>
+
+    <!-- shehnai & dhol players -->
+    <g>
+      <path d="M44 124L46 96M56 124L54 96" stroke="#FFE9BE" stroke-width="4"/>
+      <path d="M40 98C40 84 46 76 50 76 56 76 62 84 62 98Z" fill="#FBEBD6" stroke="#B88A44" stroke-width=".8"/>
+      <circle cx="51" cy="68" r="6" fill="#EDC3A0"/><path d="M44 66C44 56 58 56 58 66Z" fill="#F2A33A" stroke="#B66A12" stroke-width=".6"/>
+      <path d="M56 80L66 70 78 56" stroke="#FBEBD6" stroke-width="3" fill="none"/>
+      <path d="M72 62L90 38" stroke="#8A5E22" stroke-width="3"/><path d="M88 41l6-8" stroke="#E2B456" stroke-width="5"/>
     </g>
-  </svg>
+    <g>
+      <path d="M16 124L18 98M28 124L26 98" stroke="#FFE9BE" stroke-width="4"/>
+      <path d="M12 100C12 86 18 80 22 80 28 80 34 86 34 100Z" fill="#F4C9CF" stroke="#B88A44" stroke-width=".8"/>
+      <circle cx="23" cy="72" r="6" fill="#EDC3A0"/><path d="M16 70C16 60 30 60 30 70Z" fill="#B3262F" stroke="#7A1F33" stroke-width=".6"/>
+      <ellipse cx="23" cy="98" rx="14" ry="8" fill="#9E2A44" stroke="#E2B456" stroke-width="1.200"/><path d="M10 98H36M14 94L32 102M32 94L14 102" stroke="#E2B456" stroke-width=".7"/>
+      <path d="M30 88L40 92" stroke="#EDC3A0" stroke-width="3"/>
+    </g>
+    <path d="M6 134H254" stroke="#E3C98F" stroke-width="1" stroke-dasharray="1 5"/>
+    <g fill="#F2A33A" opacity=".9"><circle cx="70" cy="26" r="2"/><circle cx="200" cy="14" r="2"/><circle cx="226" cy="30" r="1.600"/><circle cx="58" cy="44" r="1.600"/></g>
+    <g fill="#FFFDF6"><circle cx="82" cy="14" r="1.600"/><circle cx="214" cy="40" r="1.600"/><circle cx="240" cy="18" r="1.400"/></g>
+  </g>
+</svg>
 
   <p class="dt rv">शुक्रवार, 20 नवंबर 2026</p>
   <p class="tithi rv">शुक्ल पक्ष, एकादशी</p>

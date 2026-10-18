@@ -243,3 +243,17 @@ section{position:relative;padding:56px 24px;text-align:center;scroll-margin-top:
   .nav a,.nav button{font-size:13.5px}
 }
 @media (min-width:481px){body{padding-top:20px}}
+
+/* ---------- richer finish ---------- */
+.name{background:linear-gradient(100deg,#5A1B27 10%,#8E2D40 45%,#762735 55%,#5A1B27 90%);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;filter:drop-shadow(0 1px 0 rgba(227,201,143,.9)) drop-shadow(0 3px 4px rgba(118,39,53,.18))}
+.arch-wrap svg.arch{filter:drop-shadow(0 12px 18px rgba(118,39,53,.22))}
+.opening::after{content:"";position:absolute;left:50%;top:330px;width:560px;height:560px;transform:translateX(-50%);background:repeating-conic-gradient(from 0deg,rgba(227,201,143,.16) 0 6deg,transparent 6deg 14deg);-webkit-mask:radial-gradient(circle,#000 20%,transparent 68%);mask:radial-gradient(circle,#000 20%,transparent 68%);pointer-events:none;z-index:0}
+.opening>*{position:relative;z-index:1}
+.opening>.leaf-l,.opening>.leaf-r{position:absolute}
+.seal{display:grid;place-items:center;width:58px;height:58px;margin:-62px auto 14px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#A8394B,#762735 60%,#5A1B27);box-shadow:0 3px 8px rgba(90,27,39,.4),inset 0 0 0 3px rgba(227,201,143,.45)}
+.seal svg{width:36px;height:36px}
+.letter{margin-top:34px;background:linear-gradient(#FFFEFA,#FFF9EE)}
+.wed::before{content:"";position:absolute;left:0;right:0;top:0;height:14px;background:linear-gradient(135deg,#E3C98F 25%,transparent 25%) -7px 0,linear-gradient(225deg,#E3C98F 25%,transparent 25%) -7px 0;background-size:14px 14px}
+.baraat{width:100%;max-width:300px;height:auto}
+.ev .tx,.place-card,.call{box-shadow:0 6px 16px rgba(118,39,53,.07)}
+.ganesha{filter:drop-shadow(0 4px 6px rgba(118,39,53,.2))}
