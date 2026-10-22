@@ -143,15 +143,16 @@
 
     var params = new URLSearchParams();
     new FormData(form).forEach(function (v, k) { params.append(k, v); });
-    params.set('form_name', form.id === 'heroForm' ? 'Flutter Hire - Hero Form' : 'Flutter Hire - Bottom Form');
+    params.set('form_name', 'Hero Form'); // same value the original page always sends; the script may only accept this
     var code = String(f.country.value || '').match(/\+\d+/);
     params.set('country', code ? code[0] : f.country.value);
-    params.set('message', 'Hiring model: ' + f.hiring_model.value + (f.message.value ? '\n' + f.message.value : ''));
+    params.set('message', '[Flutter Hire] Hiring model: ' + f.hiring_model.value + (f.message.value ? '\n' + f.message.value : ''));
 
     fetch(FORM_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' }, body: params.toString() })
       .then(function (r) { return r.text(); })
       .then(function (txt) {
-        var data; try { data = JSON.parse(txt); } catch (e) { throw new Error('Invalid server response.'); }
+        var data; try { data = JSON.parse(txt); } catch (e) { console.error('Lead endpoint returned non-JSON:', txt.slice(0, 300)); throw new Error('Invalid server response.'); }
+        if (!data.success) console.error('Lead endpoint rejected the submission:', data);
         if (!data.success) throw new Error(data.message || 'Submission failed.');
         form.reset(); resetUI(form);
         setMsg(form, SUCCESS_MSG, 'success', 10000);
