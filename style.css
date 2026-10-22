@@ -257,3 +257,12 @@ section{position:relative;padding:56px 24px;text-align:center;scroll-margin-top:
 .baraat{width:100%;max-width:300px;height:auto}
 .ev .tx,.place-card,.call{box-shadow:0 6px 16px rgba(118,39,53,.07)}
 .ganesha{filter:drop-shadow(0 4px 6px rgba(118,39,53,.2))}
+
+/* ---------- real photo layers (shown only when images/*.jpg exist) ---------- */
+.photo{display:none;width:100%;height:auto}
+.has-photo .photo{display:block}
+.has-photo svg.arch,.has-photo .lamp{display:none}
+.hero-photo{border-radius:170px 170px 14px 14px;border:3px solid var(--gold);box-shadow:0 14px 30px rgba(118,39,53,.3)}
+.opening.has-banner .banner{display:block;position:relative;z-index:1}
+.opening.has-banner .garland,.opening.has-banner .leaf-l,.opening.has-banner .leaf-r,.opening.has-banner .ganesha{display:none}
+.wed-photo.ok{display:block;border-radius:14px;border:1px solid rgba(227,201,143,.7);margin:8px 0 6px;box-shadow:0 10px 24px rgba(0,0,0,.3)}
