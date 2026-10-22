@@ -1,0 +1,47 @@
+/* Interactive layer for the Figma export (index.css is untouched) */
+html{scroll-behavior:smooth}
+.fx-form{display:contents}
+.fx-hp{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden!important}
+
+/* ---- form fields ---- */
+.fx-input{flex:1 1 auto;min-width:0;width:100%;height:100%;border:0;outline:0;background:transparent;font:500 14px/17px Inter,sans-serif;color:#18181b;padding:0}
+.fx-input::placeholder{color:#6b6b75;opacity:1}
+.fx-textarea{resize:none;height:100%;line-height:20px;font-family:Inter,sans-serif}
+.name-input,.email-input,.phone-input,.requirements-input,.country-code,.hiring-model,
+[class*="input-name"],[class*="input-email"],[class*="input-phone"],[class*="input-budget"]{transition:border-color .15s,box-shadow .15s}
+.name-input:focus-within,.email-input:focus-within,.phone-input:focus-within,.requirements-input:focus-within,.country-code:focus-within,.hiring-model:focus-within,
+[class*="input-name"]:focus-within,[class*="input-email"]:focus-within,[class*="input-phone"]:focus-within,[class*="input-budget"]:focus-within{border-color:#0d2c5b!important;box-shadow:0 0 0 3px rgba(13,44,91,.12)}
+.fx-invalid{border-color:#dc2626!important;box-shadow:0 0 0 3px rgba(220,38,38,.12)!important}
+[data-fx-select]{cursor:pointer}
+.fx-select{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;font-size:14px;border:0}
+.fx-select-label.has-value{color:#18181b!important}
+
+/* ---- consent checkbox ---- */
+.fx-consent{cursor:pointer;user-select:none}
+.fx-check{position:absolute;opacity:0;pointer-events:none}
+.fx-consent.is-checked .checked-center,.fx-consent .fx-check:checked~* .checked-center{background:#0d2c5b}
+.fx-consent:focus-within .checkbox-box{box-shadow:0 0 0 3px rgba(13,44,91,.18)}
+.fx-consent.fx-invalid{outline:2px solid #dc2626;outline-offset:3px;border-radius:4px}
+
+/* ---- buttons ---- */
+[data-fx-cta],[data-fx-submit]{cursor:pointer;user-select:none;transition:transform .15s,filter .15s,box-shadow .15s}
+[data-fx-cta]:hover,[data-fx-submit]:hover{filter:brightness(1.08);transform:translateY(-1px)}
+[data-fx-cta]:active,[data-fx-submit]:active{transform:translateY(0)}
+[data-fx-cta]:focus-visible,[data-fx-submit]:focus-visible,.fx-faq-head:focus-visible{outline:3px solid rgba(13,44,91,.45);outline-offset:3px}
+[data-fx-submit].is-submitting{opacity:.7;pointer-events:none}
+.fx-msg{align-self:stretch;font:500 14px/20px Inter,sans-serif;text-align:center;min-height:0}
+.fx-msg:empty{display:none}
+.fx-msg.is-error{color:#dc2626}
+.fx-msg.is-success{color:#15803d;background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:10px 12px}
+
+/* ---- FAQ accordion ---- */
+.fx-faq-head{cursor:pointer}
+.fx-faq-item{transition:background .2s,border-color .2s}
+.fx-faq-item.is-open{background:#f7f8fa;border-color:rgba(0,0,0,.12)}
+.fx-faq-icon{transition:transform .25s ease;transform:rotate(45deg)}
+.fx-faq-item.is-open .fx-faq-icon{transform:rotate(0)}
+.fx-faq-answer{align-self:stretch;display:grid;grid-template-rows:0fr;margin-top:-17px;transition:grid-template-rows .3s ease,margin-top .3s ease}
+.fx-faq-item.is-open .fx-faq-answer{grid-template-rows:1fr;margin-top:0}
+.fx-faq-answer-inner{overflow:hidden;min-height:0}
+.fx-faq-answer-inner p{margin:0;padding-bottom:4px;font:400 16px/24px Poppins,sans-serif;color:#4b5563}
+.fx-faq-item.is-open .fx-faq-answer-inner p{padding-bottom:4px}
